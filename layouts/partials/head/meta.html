@@ -1,0 +1,3 @@
+<title>{{ .Site.Title }} - {{ .Site.Params.Meta.Baseline }}</title>
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Meta.Description }}{{ else }}{{ .Summary }}{{ end }}">
+<meta name="author" content="{{ .Site.Params.Meta.Authors}}">

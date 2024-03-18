@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Somari'
+
+[params]
+    [params.meta]
+    description = 'Somari is the first web & mobile solution to dedicated to managing the security of NGO staff.'
+    baseline = 'Security Management Software For NGOs'
+    authors = 'The Somari Team'

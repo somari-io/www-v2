@@ -1,0 +1,7 @@
+{{ $styles := resources.Get "scss/main.scss" | toCSS | postCSS }}
+{{ if hugo.IsProduction}}
+    {{ $styles = $styles | minify | fingerprint }}
+{{ else }}
+    {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixMilli) .}}
+{{ end }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">

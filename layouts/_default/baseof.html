@@ -1,0 +1,12 @@
+<html>
+    <head>
+        {{ partial "head/meta" . }}
+        {{ partial "head/css" . }}
+        {{ partial "head/js" . }}
+    </head>
+    <body>
+        <main>
+            {{ block "main" . }}{{ end }}
+        </main>
+    </body>
+</html>
