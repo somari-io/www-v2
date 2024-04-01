@@ -16,18 +16,22 @@ title = 'Somari'
         name = "Risk Assessment"
         desc = "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported."
         id = "risk-assessment"
+        img = "/images/features/risk-assessment.png"
 
         [[params.features.features]]
-        name = "Security Score"
+        name = "Security level"
         desc = "All of your receipts organized into one place, as long as you don't mind typing in the data by hand."
-        id = "security-score"
+        id = "security-level"
+        img = "/images/features/security-level.png"
 
         [[params.features.features]]
         name = "Drive"
         desc = "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need."
         id = "drive"
+        img = "/images/features/drive.png"
 
         [[params.features.features]]
-        name = "PDf / XLS Export"
+        name = "Evacuation Plan"
         desc = "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it."
-        id = "export"
+        id = "evacuation-plan"
+        img = "/images/features/evacuation-plan.png"
