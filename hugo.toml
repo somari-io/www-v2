@@ -7,3 +7,27 @@ title = 'Somari'
     description = 'Somari is the first web & mobile solution to dedicated to managing the security of NGO staff.'
     baseline = 'Security Management Software For NGOs'
     authors = 'The Somari Team'
+
+    [params.features]
+    title = "All the tools you need for Security Risk Management"
+    subtitle = "All the tools work with one another to provide users a coherent and integrated experience."
+
+        [[params.features.features]]
+        name = "Risk Assessment"
+        desc = "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported."
+        id = "risk-assessment"
+
+        [[params.features.features]]
+        name = "Security Score"
+        desc = "All of your receipts organized into one place, as long as you don't mind typing in the data by hand."
+        id = "security-score"
+
+        [[params.features.features]]
+        name = "Drive"
+        desc = "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need."
+        id = "drive"
+
+        [[params.features.features]]
+        name = "PDf / XLS Export"
+        desc = "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it."
+        id = "export"
