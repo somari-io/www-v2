@@ -1,0 +1,58 @@
+<div class="bg-white py-24 sm:py-32" x-data="{ selected_group: 'security-plan' }">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div>
+        <h2 class="text-base font-semibold leading-7 text-indigo-600">But that's not it!</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">All-in-one platform</p>
+        <p class="mt-6 text-base leading-7 text-gray-600">Somari is the only digital solution that includes absolutely all the feature needed both
+          by the field and HQ staff in one single platform.</p>
+      </div>
+
+      <div class="col-span-1 sm:col-span-2">
+        <div class="col-span-1 sm:col-span-2">
+          <div class="sm:hidden mb-10">
+            <label for="tabs" class="sr-only">Select a tab</label>
+            <!-- Use an "onChange" listener to redirect the user to the selected tab URL. -->
+            <select id="tabs" name="tabs" x-on:change="selected_group = $event.target.value"
+              class="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500">
+              {{ range .Site.Params.features.groups }}
+              <option value="{{ .id }}">{{ .name }}</option>
+              {{ end }}
+            </select>
+          </div>
+          <div class="hidden sm:block mb-10">
+            <div class="border-b border-gray-200">
+              <nav class="-mb-px flex justify-center space-x-8" aria-label="Tabs">
+                {{ range .Site.Params.features.groups }}
+                <span x-on:click="selected_group = '{{ .id }}'"
+                  :class="selected_group == '{{ .id }}' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'"
+                  class="cursor-pointer w-1/4 border-b-2 pt-1 pb-4 px-1 text-center text-sm font-medium">
+                  {{.name }}</span>
+                {{ end }}
+                <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        {{ range .Site.Params.features.groups }}
+        <dl x-show="selected_group == '{{ .id }}'"
+          class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
+          {{ range .features }}
+          <div class="relative pl-9">
+            <dt class="font-semibold text-gray-900">
+              <svg class="absolute left-0 top-1 h-5 w-5 text-indigo-500" viewBox="0 0 640 512" fill="currentColor"
+                aria-hidden="true">
+                <path d="{{ .icon }}" />
+              </svg>
+              {{ .name }}
+            </dt>
+            <dd class="mt-2">{{ .desc }}</dd>
+          </div>
+          {{ end }}
+        </dl>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
