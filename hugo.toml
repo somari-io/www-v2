@@ -8,6 +8,10 @@ title = 'Somari'
     baseline = 'Security Management Software For NGOs'
     authors = 'The Somari Team'
 
+    [params.logos]
+    dark_text = "images/somari-logo-dark-text.png"
+    white_text = "images/somari-logo-white-text.png"
+
     [params.hero]
     title = "The Future Of Security Risk Management."
     subtitle = "Somari is a web & mobile solution purposely built for NGOs to streamline SRM across the field and HQ."
@@ -20,7 +24,6 @@ title = 'Somari'
 
 
     [params.header_menu]
-    logo = "images/somari-logo-dark-text.png"
     login_link = "https://staging.somari.io"
 
     [params.features]
