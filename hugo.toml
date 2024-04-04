@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://somari.io'
 languageCode = 'en-us'
 title = 'Somari'
 
@@ -11,6 +11,10 @@ title = 'Somari'
     [params.logos]
     dark_text = "images/somari-logo-dark-text.png"
     white_text = "images/somari-logo-white-text.png"
+
+    [params.social]
+    email = "contact@somari.io"
+    linkedin = "https://www.linkedin.com/company/somari-io"
 
     [params.hero]
     title = "The Future Of Security Risk Management."
@@ -172,4 +176,8 @@ title = 'Somari'
             icon = "M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V280.4c-17-15.2-39.4-24.4-64-24.4H64c-24.6 0-47 9.2-64 24.4V96zM64 288H448c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V352c0-35.3 28.7-64 64-64zM320 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm128-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
             desc = "Move all your SRM documents within Somari's well structured security plan."
 
+    [params.cta]
+    title1 = "Interested? Question?"
+    title2 = "We'd love to connect!"
+    subtitle = "Join our community on LinkedIn to get the latest on Somari. For questions or an early access requests, send us an email."
 
