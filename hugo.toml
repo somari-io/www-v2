@@ -9,8 +9,8 @@ title = 'Somari'
     authors = 'The Somari Team'
 
     [params.logos]
-    dark_text = "images/somari-logo-dark-text.png"
-    white_text = "images/somari-logo-white-text.png"
+    dark_text = "images/logos/somari-logo-dark-text.png"
+    white_text = "images/logos/somari-logo-white-text.png"
 
     [params.social]
     email = "contact@somari.io"
@@ -181,3 +181,29 @@ title = 'Somari'
     title2 = "We'd love to connect!"
     subtitle = "Join our community on LinkedIn to get the latest on Somari. For questions or an early access requests, send us an email."
 
+    [params.team]
+    title = "About the team"
+    subtitle = "We're building a team that combines senior sector and technical expertise. Our professional background is on LinkedIn. Feel free to reach out."
+    
+        [[params.team.members]]
+        photo = "images/team/guillaume.png"
+        name = "Guillaume Deflaux"
+        expertise = "ICT4D Expertise"
+        linkedin = "https://www.linkedin.com/in/guillaumedeflaux/"
+        bio = "17 years of experience in developing and deploying software at scale for NGOs and governments in humanitarian and development contexts."
+        experience = "Terre des hommes, ALIMA, Dimagi, IT4LIFE, Akvo"
+        
+        [[params.team.members]]
+        photo = "images/team/louis.jpeg"
+        name = "Louis Kim"
+        expertise = "Software Development Expertise"
+        linkedin = "https://www.linkedin.com/in/louisalbankim/"
+        bio = "15+ years of experience building and running software, leading teams for enterprises and startups with a strong focus on quality and simplicity."
+        experience = "Bouygues Telecom, Le Figaro, Hivebrite"
+        
+        [[params.team.members]]
+        photo = "images/team/recruiting.png"
+        name = "Actively Recruiting"
+        expertise = "SRM Expertise"
+        bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
+        experience = ""
