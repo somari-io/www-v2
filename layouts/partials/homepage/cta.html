@@ -5,27 +5,19 @@
         .Site.Params.cta.title1 }}<br />{{ .Site.Params.cta.title2 }}</h2>
       <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">{{ .Site.Params.cta.subtitle}}</p>
       <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
-        <a href="" class="p-3 text-left rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-          <h3
-            class="text-white font-semibold">LinkedIn <span aria-hidden="true">→</span></h3>
+        <a href="{{ .Site.Params.social.linkedin }}" class="p-3 text-left rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+          <h3 class="text-white font-semibold">LinkedIn <span aria-hidden="true">→</span></h3>
           <p class="mt-3 text-gray-300">Join our community on LinkedIn to get the latest on Somari.</p>
         </a>
-
-        <a href="" class="p-3 text-left rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-          <h3
-            class="text-white font-semibold">Request access <span aria-hidden="true">→</span></h3>
+        <a href="" class="p-3 text-left rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10"
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/{{ .Site.Params.social.calendly_event }}?hide_gdpr_banner=1'});return false;">
+          <h3 class="text-white font-semibold">Request access <span aria-hidden="true">→</span></h3>
           <p class="mt-3 text-gray-300">Want to give Somari a try? No problem, let's have a quick chat.</p>
         </a>
-
         <a href="mailto:{{ .Site.Params.social.email }}" class="p-3 text-left rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-          <h3
-            class="text-white font-semibold">Email <span aria-hidden="true">→</span></h3>
+          <h3 class="text-white font-semibold">Email <span aria-hidden="true">→</span></h3>
           <p class="mt-3 text-gray-300">For anything else, email us and we will get back to you shortly.</p>
         </a>
-
-
-
-
       </div>
       <svg viewBox="0 0 1024 1024"
         class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
