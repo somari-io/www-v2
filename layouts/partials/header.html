@@ -25,8 +25,12 @@
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="{{ .Site.Params.header_menu.login_link }}" class="text-sm font-semibold leading-6 text-gray-900">Log in
-                <span aria-hidden="true">&rarr;</span></a>
+            <a href="{{ .Site.Params.header_menu.login_link }}" class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                Log in
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2 w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+                </svg>                  
+            </a>
         </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
