@@ -181,9 +181,7 @@ title = 'Somari'
             desc = "Move all your SRM documents within Somari's well structured security plan."
 
     [params.cta]
-    title1 = "Interested? Question?"
-    title2 = "We'd love to connect!"
-    subtitle = "Join our community on LinkedIn to get the latest on Somari. For questions or an early access requests, send us an email."
+    title = "Interested? Question? We'd love to connect!"
 
     [params.team]
     title = "About the team"
