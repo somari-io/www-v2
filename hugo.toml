@@ -226,7 +226,8 @@ title = 'Somari'
             desc = "Move all your SRM documents within Somari's well structured security plan."
 
     [params.cta]
-    title = "Interested? Question? We'd love to connect!"
+    entry = "Interested? Question?"
+    title = "We'd love to connect!"
 
     [params.team]
     title = "About the team"
