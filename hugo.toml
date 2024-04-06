@@ -2,6 +2,52 @@ baseURL = 'https://somari.io'
 languageCode = 'en-us'
 title = 'Somari'
 
+[menus]
+    [[menus.main]]
+    name = "Approach"
+    pageRef = "/#approach"
+    weight = 10
+
+    [[menus.main]]
+    name = "Features"
+    pageRef = "/#features"
+    weight = 20
+
+    [[menus.main]]
+    name = "Mobile"
+    pageRef = "/#mobile"
+    weight = 30
+
+    [[menus.main]]
+    name = "Connect"
+    pageRef = "/#connect"
+    weight = 40
+
+    [[menus.main]]
+    name = "Team"
+    pageRef = "/#team"
+    weight = 50
+
+    [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 60
+
+    [[menus.footer]]
+    name = "Privacy"
+    url = "https://staging.somari.io/privacy"
+    weight = 10
+
+    [[menus.footer]]
+    name = "Terms"
+    url = "https://staging.somari.io/terms"
+    weight = 20
+
+    [[menus.footer]]
+    name = "Status Page"
+    url = "https://status.somari.io/status/somari"
+    weight = 30
+
 [params]
     [params.meta]
     description = 'Somari is the first web & mobile solution to dedicated to managing the security of NGO staff.'
@@ -15,7 +61,6 @@ title = 'Somari'
     [params.social]
     email = "contact@somari.io"
     linkedin = "https://www.linkedin.com/company/somari-io"
-    uptime = "https://status.somari.io/status/somari"
     calendly_event = "guillaume-ljse/30min"
 
     [params.hero]

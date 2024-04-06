@@ -7,7 +7,8 @@
             </a>
         </div>
         <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" x-on:click="mobile_menu_open = true">
+            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                x-on:click="mobile_menu_open = true">
                 <span class="sr-only">Open main menu</span>
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">
@@ -17,19 +18,19 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#approach" class="text-sm font-semibold leading-6 text-gray-900">Approach</a>
-            <a href="#features" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
-            <a href="#mobile" class="text-sm font-semibold leading-6 text-gray-900">Mobile</a>
-            <a href="#connect" class="text-sm font-semibold leading-6 text-gray-900">Connect</a>
-            <a href="#team" class="text-sm font-semibold leading-6 text-gray-900">Team</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Blog</a>
+            {{ range .Site.Menus.main }}
+            <a href="{{ .PageRef }}" class="text-sm font-semibold leading-6 text-gray-900">{{ .Name }}</a>
+            {{ end }}
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="{{ .Site.Params.header_menu.login_link }}" class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+            <a href="{{ .Site.Params.header_menu.login_link }}"
+                class="flex items-center text-sm font-semibold leading-6 text-gray-900">
                 Log in
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
-                </svg>                  
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="ml-2 w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+                </svg>
             </a>
         </div>
     </nav>
@@ -42,10 +43,10 @@
             <div class="flex items-center justify-between">
                 <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="{{ .Site.Params.logos.dark_text}}"
-                        alt="">
+                    <img class="h-8 w-auto" src="{{ .Site.Params.logos.dark_text}}" alt="">
                 </a>
-                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" x-on:click="mobile_menu_open = false">
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700"
+                    x-on:click="mobile_menu_open = false">
                     <span class="sr-only">Close menu</span>
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                         aria-hidden="true">
@@ -56,23 +57,22 @@
             <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6">
-                        <a href="#approach" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Approach</a>
-                        <a href="#" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                        <a href="#" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Mobile</a>
-                        <a href="#connect" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Connect</a>
-                        <a href="#" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Team</a>
-                        <a href="#" x-on:click="mobile_menu_open = false"
-                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+                        {{ range .Site.Menus.main}}
+                        <a href="{{ .PageRef }}" x-on:click="mobile_menu_open = false"
+                            class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                            .Name }}</a>
+                        {{ end }}
                     </div>
                     <div class="py-6">
                         <a href="{{ .Site.Params.header_menu.login_link }}"
-                            class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
-                            in</a>
+                            class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
+                            Log in
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="ml-2 w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
