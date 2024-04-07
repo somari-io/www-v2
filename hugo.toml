@@ -67,7 +67,7 @@ title = 'Somari'
     title = "The Future Of Security Risk Management."
     subtitle = "Somari is a web & mobile solution purposely built for NGOs to streamline SRM across the field and HQ."
     request_label = "Request access"
-    request_link_classes = "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+    request_link_classes = "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
     image = "images/hero-application.png"
 
         [params.hero.whats_new]
