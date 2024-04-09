@@ -8,7 +8,7 @@
               class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 {{ .Site.Params.hero.whats_new.pre }}
                 <a
-                  href="{{ .Site.Params.hero.whats_new.url }}"
+                  href="{{ .Site.BaseURL }}{{ .Site.Params.hero.whats_new.url }}"
                   class="font-semibold text-indigo-600">
                     <span class="absolute inset-0" aria-hidden="true"></span>
                     {{ .Site.Params.hero.whats_new.title }}
