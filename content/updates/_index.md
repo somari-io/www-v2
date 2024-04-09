@@ -1,4 +1,4 @@
 ---
 title: "Product Updates"
-summary: "All the product updates in one place"
+summary: "Here you will find all the notable updates we make to Somari."
 ---

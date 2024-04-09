@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+article.update {
+    p {
+        @apply my-2
+    }
+
+    ul {
+        @apply list-disc ml-8
+    }
+
+    .tag-New {
+        @apply bg-blue-200 text-blue-800
+    }
+
+    .tag-Improvement {
+        @apply bg-violet-200 text-violet-800
+    }
+}
