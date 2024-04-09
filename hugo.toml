@@ -5,32 +5,32 @@ title = 'Somari'
 [menus]
     [[menus.main]]
     name = "Approach"
-    pageRef = "/#approach"
+    pageRef = "#approach"
     weight = 10
 
     [[menus.main]]
     name = "Features"
-    pageRef = "/#features"
+    pageRef = "#features"
     weight = 20
 
     [[menus.main]]
     name = "Mobile"
-    pageRef = "/#mobile"
+    pageRef = "#mobile"
     weight = 30
 
     [[menus.main]]
     name = "Connect"
-    pageRef = "/#connect"
+    pageRef = "#connect"
     weight = 40
 
     [[menus.main]]
     name = "Team"
-    pageRef = "/#team"
+    pageRef = "#team"
     weight = 50
 
     [[menus.main]]
     name = "Blog"
-    pageRef = "https://www.linkedin.com/company/somari-io/posts/?feedView=articles"
+    url = "https://www.linkedin.com/company/somari-io/posts/?feedView=articles"
     weight = 60
 
     [[menus.footer]]
