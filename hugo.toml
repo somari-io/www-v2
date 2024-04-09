@@ -55,8 +55,8 @@ title = 'Somari'
     authors = 'The Somari Team'
 
     [params.logos]
-    dark_text = "images/logos/somari-logo-dark-text.png"
-    white_text = "images/logos/somari-logo-white-text.png"
+    dark_text = "/images/logos/somari-logo-dark-text.png"
+    white_text = "/images/logos/somari-logo-white-text.png"
 
     [params.social]
     email = "contact@somari.io"
@@ -73,7 +73,7 @@ title = 'Somari'
         [params.hero.whats_new]
         pre = "We're constantly adding features. "
         title = "See what's new "
-        url = "#"
+        url = "/updates"
 
 
     [params.header_menu]
