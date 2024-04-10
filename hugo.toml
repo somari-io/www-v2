@@ -163,7 +163,7 @@ title = 'Somari'
             desc = "Design templates and make sure that every staff has the right information at hand."
         
         [[params.features.groups]]
-        name = "Global"
+        name = "Global SRM"
         id = "global"      
 
             [[params.features.groups.features]]
