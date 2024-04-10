@@ -50,13 +50,14 @@ title = 'Somari'
 
 [params]
     [params.meta]
-    description = 'Somari is the first web & mobile solution to dedicated to managing the security of NGO staff.'
-    baseline = 'Security Management Software For NGOs'
+    description = 'Somari is the first web & mobile Security Risk Management (SRM) solution dedicated to managing the security of NGO staff.'
+    homeTabTitle = 'Security Risk Management for NGOs'
     authors = 'The Somari Team'
 
     [params.logos]
     dark_text = "images/logos/somari-logo-dark-text.png"
     white_text = "images/logos/somari-logo-white-text.png"
+    social = "images/somari-logo-dark-text-social.png"
 
     [params.social]
     email = "contact@somari.io"

@@ -1,4 +1,23 @@
-<title>{{ .Site.Title }} - {{ .Site.Params.Meta.Baseline }}</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.png">
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Meta.Description }}{{ else }}{{ .Summary }}{{ end }}">
-<meta name="author" content="{{ .Site.Params.Meta.Authors}}">
+{{ $social_title := cond (.IsHome) .Site.Title .Title }}
+{{ $description := cond (.IsHome) .Site.Params.meta.description .Summary }}
+{{ $tab_title_pre := cond (.IsHome) .Site.Params.Meta.homeTabTitle .Params.tabTitle }}
+
+<title>{{ $tab_title_pre }} | {{ .Site.Title }}</title>
+<link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}images/favicon.png">
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ .Site.Params.Meta.Authors }}">
+
+<!-- LinkedIn -->
+<meta property="og:title" content="{{ $social_title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Page.Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logos.social }}">
+<meta property=" og:type" content="website" />
+
+<!-- Twitter -->
+<meta name='twitter:card' content='summary_large_image'>
+<meta name="twitter:title" content="{{ $social_title }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta property="twitter:domain" content="somari.io">
+<meta property="twitter:url" content="{{ .Page.Permalink }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logos.social }}">
