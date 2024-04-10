@@ -70,6 +70,7 @@ title = 'Somari'
     request_label = "Request access"
     request_link_classes = "rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
     image = "images/hero-application.png"
+    video_link = "https://www.youtube.com/channel/UCDq5aGF3RikbpO6Yq3LaSNQ"
 
         [params.hero.whats_new]
         pre = "We're constantly adding features. "
