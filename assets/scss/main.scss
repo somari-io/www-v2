@@ -18,4 +18,8 @@ article.update {
     .tag-Improvement {
         @apply bg-violet-200 text-violet-800
     }
+
+    a {
+        @apply underline text-indigo-600
+    }
 }
