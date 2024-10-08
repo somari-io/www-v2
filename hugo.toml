@@ -257,3 +257,58 @@ title = 'Somari'
         expertise = "SRM Expertise"
         bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
         experience = ""
+    
+    [params.pricing]
+        title = "Pricing Page"
+        subtitle = "The pricing that is right for you!"
+
+        [[params.pricing.plans]]
+        name = "Free Trial"
+        description = "Give Somari a try and see how it can benefit your organization."
+        cost = "€0"
+        unit = "/year"
+        theme = "light"
+            [[params.pricing.plans.features]]
+            name = "2 sites"
+            [[params.pricing.plans.features]]
+            name = "5 users"
+            [[params.pricing.plans.features]]
+            name = "All Somari features"
+            [[params.pricing.plans.features]]
+            name = "Documentation"
+        [[params.pricing.plans]]
+        name = "Scale"
+        description = "Digitize Security Risk Management systems at scale."
+        cost = "€1000"
+        unit = "/year/site"
+        theme = "light"
+            [[params.pricing.plans.features]]
+            name = "Up to 20 sites"
+            [[params.pricing.plans.features]]
+            name = "Unlimited users"
+            [[params.pricing.plans.features]]
+            name = "All Somari features"
+            [[params.pricing.plans.features]]
+            name = "Documentation"
+            [[params.pricing.plans.features]]
+            name = "Priority support"
+        [[params.pricing.plans]]
+        name = "Enterprise"
+        description = "Dedicated support and infrastructure for your company."
+        cost = "Custom"
+        unit = ""
+        theme = "dark"
+            [[params.pricing.plans.features]]
+            name = "Unlimited sites"
+            [[params.pricing.plans.features]]
+            name = "Unlimited users"
+            [[params.pricing.plans.features]]
+            name = "All Somari features"
+            [[params.pricing.plans.features]]
+            name = "Documentation"
+            [[params.pricing.plans.features]]
+            name = "Priority support"
+            [[params.pricing.plans.features]]
+            name = "SAML-based single sign-on"
+            [[params.pricing.plans.features]]
+            name = "On-premise hosting"
