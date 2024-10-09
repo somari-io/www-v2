@@ -29,9 +29,14 @@ title = 'Somari'
     weight = 50
 
     [[menus.main]]
+    name = "Pricing"
+    pageRef = "pricing"
+    weight = 60
+
+    [[menus.main]]
     name = "Blog"
     url = "https://www.linkedin.com/company/somari-io/posts/?feedView=articles"
-    weight = 60
+    weight = 70
 
     [[menus.footer]]
     name = "Privacy"
@@ -259,14 +264,16 @@ title = 'Somari'
         experience = ""
     
     [params.pricing]
-        title = "Pricing Page"
-        subtitle = "The pricing that is right for you!"
+        title = "Pricing"
+        subtitle = "Simple pricing based on the number of sites you operate from."
 
         [[params.pricing.plans]]
         name = "Free Trial"
         description = "Give Somari a try and see how it can benefit your organization."
         cost = "€0"
         unit = "/year"
+        cta_label = "Click me!"
+        cta_link = ""
         theme = "light"
             [[params.pricing.plans.features]]
             name = "2 sites"
@@ -277,10 +284,12 @@ title = 'Somari'
             [[params.pricing.plans.features]]
             name = "Documentation"
         [[params.pricing.plans]]
-        name = "Scale"
-        description = "Digitize Security Risk Management systems at scale."
+        name = "Scaling"
+        description = "Introduce digital Security Risk Management within your organization."
         cost = "€1000"
         unit = "/year/site"
+        cta_label = "Click me!"
+        cta_link = ""
         theme = "light"
             [[params.pricing.plans.features]]
             name = "Up to 20 sites"
@@ -294,9 +303,11 @@ title = 'Somari'
             name = "Priority support"
         [[params.pricing.plans]]
         name = "Enterprise"
-        description = "Dedicated support and infrastructure for your company."
+        description = "All the benefits of Somari at scale with entreprise integrations."
         cost = "Custom"
         unit = ""
+        cta_label = "Click me!"
+        cta_link = ""
         theme = "dark"
             [[params.pricing.plans.features]]
             name = "Unlimited sites"

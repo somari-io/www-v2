@@ -5,9 +5,8 @@
         <span class="text-4xl font-bold tracking-tight text-white">{{ .cost}}</span>
         <span class="text-sm font-semibold leading-6 text-white">{{ .unit }}</span>
     </p>
-    <a href="#" aria-describedby="tier-enterprise"
-        class="mt-6 block rounded-md bg-white/10 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Contact
-        sales</a>
+    <a href="{{ .cta_link }}" aria-describedby="tier-enterprise"
+        class="mt-6 block rounded-md bg-white/10 px-3 py-2 text-center text-sm font-semibold leading-6 text-white hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">{{ .cta_label }}</a>
     <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-300 xl:mt-10">
         {{ range .features}}
         <li class="flex gap-x-3">

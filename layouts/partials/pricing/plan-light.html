@@ -7,9 +7,8 @@
         <!-- Payment frequency, update based on frequency toggle state -->
         <span class="text-sm font-semibold leading-6 text-gray-600">{{ .unit }}</span>
     </p>
-    <a href="#" aria-describedby="tier-freelancer"
-        class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-        Buy plan</a>
+    <a href="{{ .cta_link }}" aria-describedby="tier-freelancer"
+        class="mt-6 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{{ .cta_label }}</a>
     <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
         {{ range .features }}
         <li class="flex gap-x-3">
