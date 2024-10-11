@@ -23,3 +23,29 @@ article.update {
         @apply underline text-indigo-600
     }
 }
+
+.services {
+    h2 {
+        @apply mt-16 text-2xl font-bold tracking-tight text-gray-900
+    }
+
+    ul {
+        @apply mt-8 max-w-xl space-y-8 text-gray-600
+    }
+
+    li {
+        @apply flex gap-x-3
+    }
+
+    strong {
+        @apply font-semibold text-gray-900
+    }
+
+    p {
+        @apply mt-6
+    }
+
+    h2 {
+        @apply mt-16 text-2xl font-bold tracking-tight text-gray-900
+    }
+}
