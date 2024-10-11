@@ -30,7 +30,7 @@ title = 'Somari'
 
     [[menus.main]]
     name = "Pricing"
-    pageRef = "pricing"
+    pageRef = "pricing" 
     weight = 60
 
     [[menus.main]]
@@ -267,59 +267,44 @@ title = 'Somari'
         title = "Pricing"
         subtitle = "Simple pricing based on the number of sites you operate from."
 
-        [[params.pricing.plans]]
+        [params.pricing.plan_free]
         name = "Free Trial"
         description = "Give Somari a try and see how it can benefit your organization."
-        cost = "€0"
-        unit = "/year"
-        cta_label = "Click me!"
+        cost = "Free"
+        unit = ""
+        cta_label = "Request Access"
         cta_link = ""
-        theme = "light"
-            [[params.pricing.plans.features]]
-            name = "2 sites"
-            [[params.pricing.plans.features]]
-            name = "5 users"
-            [[params.pricing.plans.features]]
-            name = "All Somari features"
-            [[params.pricing.plans.features]]
-            name = "Documentation"
-        [[params.pricing.plans]]
-        name = "Scaling"
-        description = "Introduce digital Security Risk Management within your organization."
-        cost = "€1000"
-        unit = "/year/site"
-        cta_label = "Click me!"
-        cta_link = ""
-        theme = "light"
-            [[params.pricing.plans.features]]
-            name = "Up to 20 sites"
-            [[params.pricing.plans.features]]
-            name = "Unlimited users"
-            [[params.pricing.plans.features]]
-            name = "All Somari features"
-            [[params.pricing.plans.features]]
-            name = "Documentation"
-            [[params.pricing.plans.features]]
-            name = "Priority support"
-        [[params.pricing.plans]]
-        name = "Enterprise"
+        [[params.pricing.plan_free.features]]
+        name = "2 sites"
+        [[params.pricing.plan_free.features]]
+        name = "5 users"
+        [[params.pricing.plan_free.features]]
+        name = "All Somari features"
+        [[params.pricing.plan_free.features]]
+        name = "Documentation"
+        
+        [params.pricing.plan_scale]
+        name = "Scale"
         description = "All the benefits of Somari at scale with entreprise integrations."
         cost = "Custom"
         unit = ""
-        cta_label = "Click me!"
+        cta_label = "Request Pricing"
         cta_link = ""
-        theme = "dark"
-            [[params.pricing.plans.features]]
-            name = "Unlimited sites"
-            [[params.pricing.plans.features]]
-            name = "Unlimited users"
-            [[params.pricing.plans.features]]
-            name = "All Somari features"
-            [[params.pricing.plans.features]]
-            name = "Documentation"
-            [[params.pricing.plans.features]]
-            name = "Priority support"
-            [[params.pricing.plans.features]]
-            name = "SAML-based single sign-on"
-            [[params.pricing.plans.features]]
-            name = "On-premise hosting"
+        [[params.pricing.plan_scale.features]]
+        name = "Unlimited sites"
+        [[params.pricing.plan_scale.features]]
+        name = "Unlimited users"
+        [[params.pricing.plan_scale.features]]
+        name = "All Somari features"
+        [[params.pricing.plan_scale.features]]
+        name = "Documentation"
+        [[params.pricing.plan_scale.features]]
+        name = "Standard support"
+        [[params.pricing.plan_scale.addons]]
+        name = "Mobile Application"
+        [[params.pricing.plan_scale.addons]]
+        name = "Priority Support"
+        [[params.pricing.plan_scale.addons]]
+        name = "SAML-based SSO"
+        [[params.pricing.plan_scale.addons]]
+        name = "On-premise hosting"
