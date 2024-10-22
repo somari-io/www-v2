@@ -26,12 +26,12 @@ title = 'Somari'
     [[menus.main]]
     name = "Team"
     pageRef = "#team"
-    weight = 50
+    weight = 60
 
     [[menus.main]]
     name = "Pricing"
     pageRef = "pricing" 
-    weight = 60
+    weight = 50
 
     [[menus.main]]
     name = "Blog"
@@ -265,7 +265,7 @@ title = 'Somari'
     
     [params.pricing]
         title = "Pricing"
-        subtitle = "Simple pricing based on the number of sites you operate from."
+        subtitle = "Simple pricing based on the number of sites you operate from. No per-user fees."
 
         [params.pricing.plan_free]
         name = "Free Trial"

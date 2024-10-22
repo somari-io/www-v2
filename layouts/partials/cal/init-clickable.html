@@ -1,0 +1,4 @@
+<script type="text/javascript">
+    Cal("init", "{{ .event_type }}", { origin: "https://appointments.somari.io" });
+    Cal.ns["{{ .event_type }}"]("ui", { "styles": { "branding": { "brandColor": "#111827" } }, "hideEventTypeDetails": false, "layout": "month_view" });
+</script>
