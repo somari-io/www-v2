@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-  {{ partial "calendly/includes.html" . }}
+  {{ partial "cal/includes.html" . }}
+  {{ partial "cal/init-clickable.html" (dict "context" . "event_type" "access-request" ) }}
 
   {{ partial "homepage/hero.html" . }}
 
