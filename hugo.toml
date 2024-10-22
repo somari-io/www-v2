@@ -307,4 +307,4 @@ title = 'Somari'
         [[params.pricing.plan_scale.addons]]
         name = "SAML-based SSO"
         [[params.pricing.plan_scale.addons]]
-        name = "Self Hosted"
+        name = "Self Hosting"
