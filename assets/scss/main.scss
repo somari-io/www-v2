@@ -28,9 +28,17 @@ article.update {
     h2 {
         @apply mt-10 text-2xl font-bold tracking-tight text-gray-900
     }
+
+    h3 {
+        @apply mt-6 text-xl font-bold tracking-tight text-gray-900
+    }
     
+    h4 {
+        @apply mt-6 text-lg font-bold tracking-tight text-gray-900
+    }
+
     p {
-        @apply mt-6
+        @apply mt-3
     }
 
     strong {
@@ -42,7 +50,7 @@ article.update {
             @apply flex gap-x-3
         }
 
-        @apply mt-6 max-w-xl space-y-6 text-gray-600
+        @apply mt-6 mb-5 space-y-3 text-gray-600
     }
 
     figure {
