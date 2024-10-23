@@ -1,6 +1,6 @@
 ---
 title: Rollout & Adoption Services
-summary: Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.
+summary: The level of adoption of Somari within your organization will depend on the quality of trainings and support systems in place for your employees. We help you deploy Somari at scale.
 date: 2024-10-11
 draft: false
 params:
