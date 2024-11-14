@@ -30,7 +30,7 @@ title = 'Somari'
 
     [[menus.main]]
     name = "Pricing"
-    pageRef = "pricing" 
+    pageRef = "pricing"
     weight = 50
 
     [[menus.main]]
@@ -100,7 +100,7 @@ title = 'Somari'
         desc = "Achieve consistent security level evaluations thanks to a standardized set of indicators and levels."
         id = "security-level"
         img = "images/features/security-level.png"
-        
+
         [[params.features.main_features]]
         name = "Evacuation Plan"
         desc = "Provide detailed instructions to your staff and detailed evacuation itineraries with as many waypoints as you need."
@@ -131,7 +131,7 @@ title = 'Somari'
             name = "Security level"
             desc = "Achieve consistent security level evaluations thanks to a standardized set of indicators and levels."
             icon = "M341.5 13.5C337.5 5.2 329.1 0 319.9 0s-17.6 5.2-21.6 13.5L229.7 154.8 76.5 177.5c-9 1.3-16.5 7.6-19.3 16.3s-.5 18.1 5.9 24.5L174.2 328.4 148 483.9c-1.5 9 2.2 18.1 9.7 23.5s17.3 6 25.3 1.7l137-73.2 137 73.2c8.1 4.3 17.9 3.7 25.3-1.7s11.2-14.5 9.7-23.5L465.6 328.4 576.8 218.2c6.5-6.4 8.7-15.9 5.9-24.5s-10.3-14.9-19.3-16.3L410.1 154.8 341.5 13.5zM320 384.7V79.1l52.5 108.1c3.5 7.1 10.2 12.1 18.1 13.3l118.3 17.5L423 303c-5.5 5.5-8.1 13.3-6.8 21l20.2 119.6L331.2 387.5c-3.5-1.9-7.4-2.8-11.2-2.8z"
-            
+
             [[params.features.groups.features]]
             name = "Evacuation Plan"
             desc = "Provide detailed instructions to your staff and evacuation itineraries with unlimited waypoints."
@@ -166,10 +166,10 @@ title = 'Somari'
             name = "Constant Companion"
             icon = "M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"
             desc = "Design templates and make sure that every staff has the right information at hand."
-        
+
         [[params.features.groups]]
         name = "Global SRM"
-        id = "global"      
+        id = "global"
 
             [[params.features.groups.features]]
             name = "Incident Reporting"
@@ -190,7 +190,7 @@ title = 'Somari'
             name = "SOP Library"
             icon = "M0 80C0 53.5 21.5 32 48 32h96c26.5 0 48 21.5 48 48V96H384V80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H432c-26.5 0-48-21.5-48-48V160H192v16c0 1.7-.1 3.4-.3 5L272 288h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H272c-26.5 0-48-21.5-48-48V336c0-1.7 .1-3.4 .3-5L144 224H48c-26.5 0-48-21.5-48-48V80z"
             desc = "Make standarzided SOPs available to your team and let them adapt them as needed."
-            
+
             [[params.features.groups.features]]
             name = "Movement Tracking"
             icon = "M213.2 32H288V96c0 17.7 14.3 32 32 32s32-14.3 32-32V32h74.8c27.1 0 51.3 17.1 60.3 42.6l42.7 120.6c-10.9-2.1-22.2-3.2-33.8-3.2c-59.5 0-112.1 29.6-144 74.8V224c0-17.7-14.3-32-32-32s-32 14.3-32 32v64c0 17.7 14.3 32 32 32c2.3 0 4.6-.3 6.8-.7c-4.5 15.5-6.8 31.8-6.8 48.7c0 5.4 .2 10.7 .7 16l-.7 0c-17.7 0-32 14.3-32 32v64H86.6C56.5 480 32 455.5 32 425.4c0-6.2 1.1-12.4 3.1-18.2L152.9 74.6C162 49.1 186.1 32 213.2 32zM352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L480 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z"
@@ -208,9 +208,9 @@ title = 'Somari'
 
 
         [[params.features.groups]]
-        name = "System"  
+        name = "System"
         id = "system"
-        
+
             [[params.features.groups.features]]
             name = "User Management"
             icon = "M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM625 177L497 305c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L591 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
@@ -238,7 +238,7 @@ title = 'Somari'
     [params.team]
     title = "About the team"
     subtitle = "We're building a team that combines senior sector and technical expertise. Our professional background is on LinkedIn. Feel free to reach out."
-    
+
         [[params.team.members]]
         photo = "images/team/guillaume.png"
         name = "Guillaume Deflaux"
@@ -246,7 +246,7 @@ title = 'Somari'
         linkedin = "https://www.linkedin.com/in/guillaumedeflaux/"
         bio = "17 years of experience in developing and deploying software at scale for NGOs and governments in humanitarian and development contexts."
         experience = "Terre des hommes, ALIMA, Dimagi, IT4LIFE, Akvo"
-        
+
         [[params.team.members]]
         photo = "images/team/louis.jpeg"
         name = "Louis Kim"
@@ -254,14 +254,14 @@ title = 'Somari'
         linkedin = "https://www.linkedin.com/in/louisalbankim/"
         bio = "15+ years of experience building and running software, leading teams for enterprises and startups with a strong focus on quality and simplicity."
         experience = "Bouygues Telecom, Le Figaro, Hivebrite"
-        
+
         [[params.team.members]]
         photo = "images/team/recruiting.png"
         name = "Actively Recruiting"
         expertise = "SRM Expertise"
         bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
         experience = ""
-    
+
     [params.pricing]
         title = "Pricing"
         subtitle = "Simple pricing based on the number of sites you operate from. No per-user fees."
@@ -281,7 +281,7 @@ title = 'Somari'
         name = "All Somari features"
         [[params.pricing.plan_free.features]]
         name = "Documentation"
-        
+
         [params.pricing.plan_scale]
         name = "Scale"
         description = "All the benefits of Somari at scale with entreprise integrations."
@@ -304,6 +304,6 @@ title = 'Somari'
         [[params.pricing.plan_scale.addons]]
         name = "Priority Support"
         [[params.pricing.plan_scale.addons]]
-        name = "SAML-based SSO"
+        name = "Single Sign On"
         [[params.pricing.plan_scale.addons]]
         name = "Self Hosting"

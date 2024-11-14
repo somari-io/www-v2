@@ -19,9 +19,9 @@ We nonetheless recognize that every organization is unique. Each one has its own
 
 By the end of our engagement:
 
-- {{< bullet `All my security plans will be stored and managed in Somari` >}} 
-- {{< bullet `All Somari users will be proficient with the application` >}} 
-- {{< bullet `Robust support mechanisms will be in place and accessible to everyone.` >}} 
+- {{< bullet `All my security plans will be stored and managed in Somari` >}}
+- {{< bullet `All Somari users will be proficient with the application` >}}
+- {{< bullet `Robust support mechanisms will be in place and accessible to everyone.` >}}
 
 We’ll strive to achieve the above in the most efficient, people-centric and scalable way.
 
@@ -29,9 +29,9 @@ We’ll strive to achieve the above in the most efficient, people-centric and sc
 
 We will be training 3 types of users:
 
-- {{< bullet `**Employees** - Users able to browse, find and consume content from Somari. They represent ~90% of the users.` >}} 
-- {{< bullet `**SRM Advisors** - Like employees, plus able to create and validate content (Security Plans, ...). They represent ~10% of the users.` >}} 
-- {{< bullet `**Somari Administrators** - Users able to configure Somari. They represent ~1% of the users.` >}} 
+- {{< bullet `**Employees** - Users able to browse, find and consume content from Somari. They represent ~90% of the users.` >}}
+- {{< bullet `**SRM Advisors** - Like employees, plus able to create and validate content (Security Plans, ...). They represent ~10% of the users.` >}}
+- {{< bullet `**Somari Administrators** - Users able to configure Somari. They represent ~1% of the users.` >}}
 
 We have prepared specific trainings (see below) for each of these target users.
 
@@ -43,10 +43,12 @@ We have developed an eLearning-based training approach because it caters to the 
 
 Trainings combine different types of sessions for an optimal learning experience:
 
-- {{< bullet `**Self-paced online courses** - We use Moodle to deliver engaging courses with text, video, interactive tutorials and quizzes. Your employees will be able to learn at their own pace, when they have time to focus, reducing the impact on your operations. You will be able to follow the progress of your employees and make sure they have properly completed their courses.` >}} 
-- {{< bullet `**Group online sessions** - We use your preferred video conferencing tool to organize group sessions during which we discuss predefined topics and run practical exercises.` >}} 
+- {{< bullet `**Self-paced online courses** - We use Moodle to deliver engaging courses with text, video, interactive tutorials and quizzes. Your employees will be able to learn at their own pace, when they have time to focus, reducing the impact on your operations. You will be able to follow the progress of your employees and make sure they have properly completed their courses.` >}}
+- {{< bullet `**Group online sessions** - We use your preferred video conferencing tool to organize group sessions during which we discuss predefined topics and run practical exercises.` >}}
 
 Finally, we make a separate test / playground instance of Somari available to your team during the entire duration of the rollout phase so that they can practice safely.
+
+{{< cta "deployment-services" >}}
 
 ## Trainings
 
@@ -150,6 +152,8 @@ The Somari Support team is also in charge of collecting bug reports and communic
 
 The Somari Support team will periodically reach out to your Ambassadors to collect feedback, in a spirit of continuous improvement.
 
+{{< cta "deployment-services" >}}
+
 ## Rollout Preparation Checklist
 
 In this section we outline a high level checklist of activities that need to be executed before the trainings start. As always, this is template that will be adapted to your organization’s needs.
@@ -229,3 +233,5 @@ The resulting timeline would look as shown below. We recommend a staggered rollo
 ### 6. Setup Support Systems
 
 We setup the support systems as described above and establish support guidelines with Somari Ambassadors.
+
+{{< cta "deployment-services" >}}
