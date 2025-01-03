@@ -92,10 +92,10 @@ title = 'Somari'
         img = "images/features/security-level.png"
 
         [[params.features.main_features]]
-        name = "Evacuation Plan"
-        desc = "Provide detailed instructions to your staff and detailed evacuation itineraries with as many waypoints as you need."
-        id = "evacuation-plan"
-        img = "images/features/evacuation-plan.png"
+        name = "Maps"
+        desc = "Build custom maps with points and zones of interests, itineraries and lines. Filter the map to create the view that you need."
+        id = "maps"
+        img = "images/features/maps.png"
 
         [[params.features.main_features]]
         name = "Drive"
