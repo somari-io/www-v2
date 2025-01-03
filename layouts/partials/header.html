@@ -1,5 +1,5 @@
 <header class="bg-white" x-data="{ mobile_menu_open: false }">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="mx-auto max-w-7xl flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="{{ .Site.BaseURL }}" class="-m-1.5 p-1.5">
                 <img class="h-8 w-auto" src="{{ .Site.BaseURL }}{{ .Site.Params.logos.dark_text}}" alt="">
@@ -27,16 +27,13 @@
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="{{ .Site.Params.header_menu.login_link }}"
-                class="flex items-center text-sm font-semibold leading-6 text-gray-900">
+                class="flex items-center text-sm font-semibold leading-6 text-gray-900 mr-4">
                 Log in
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="ml-2 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
-                </svg>
             </a>
+            {{ partial "request-access-button.html" }}
         </div>
     </nav>
+
     <!-- Mobile menu, show/hide based on menu open state. -->
     <div :class="!mobile_menu_open ? 'hidden' : ''" role="dialog" aria-modal="true">
         <!-- Background backdrop, show/hide based on slide-over state. -->
@@ -74,12 +71,8 @@
                         <a href="{{ .Site.Params.header_menu.login_link }}"
                             class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
                             Log in
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="ml-2 w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
-                            </svg>
                         </a>
+                        {{ partial "request-access-button.html" }}
                     </div>
                 </div>
             </div>

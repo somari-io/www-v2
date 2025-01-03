@@ -4,39 +4,29 @@ title = 'Somari'
 
 [menus]
     [[menus.main]]
-    name = "Approach"
-    pageRef = "#approach"
-    weight = 10
-
-    [[menus.main]]
     name = "Features"
     pageRef = "#features"
-    weight = 20
-
-    [[menus.main]]
-    name = "Mobile"
-    pageRef = "#mobile"
-    weight = 30
+    weight = 10
 
     [[menus.main]]
     name = "Connect"
     pageRef = "#connect"
-    weight = 40
-
-    [[menus.main]]
-    name = "Team"
-    pageRef = "#team"
-    weight = 60
+    weight = 20
 
     [[menus.main]]
     name = "Pricing"
     pageRef = "pricing"
-    weight = 50
+    weight = 30
+
+    [[menus.main]]
+    name = "About"
+    pageRef = "about"
+    weight = 40
 
     [[menus.main]]
     name = "Blog"
     url = "https://www.linkedin.com/company/somari-io/posts/?feedView=articles"
-    weight = 70
+    weight = 50
 
     [[menus.footer]]
     name = "Privacy"
@@ -240,7 +230,7 @@ title = 'Somari'
     subtitle = "We're building a team that combines senior sector and technical expertise. Our professional background is on LinkedIn. Feel free to reach out."
 
         [[params.team.members]]
-        photo = "images/team/guillaume.png"
+        photo = "/images/team/guillaume.png"
         name = "Guillaume Deflaux"
         expertise = "ICT4D Expertise"
         linkedin = "https://www.linkedin.com/in/guillaumedeflaux/"
@@ -248,7 +238,7 @@ title = 'Somari'
         experience = "Terre des hommes, ALIMA, Dimagi, IT4LIFE, Akvo"
 
         [[params.team.members]]
-        photo = "images/team/louis.jpeg"
+        photo = "/images/team/louis.jpeg"
         name = "Louis Kim"
         expertise = "Software Development Expertise"
         linkedin = "https://www.linkedin.com/in/louisalbankim/"
@@ -256,7 +246,7 @@ title = 'Somari'
         experience = "Bouygues Telecom, Le Figaro, Hivebrite"
 
         [[params.team.members]]
-        photo = "images/team/recruiting.png"
+        photo = "/images/team/recruiting.png"
         name = "Actively Recruiting"
         expertise = "SRM Expertise"
         bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
