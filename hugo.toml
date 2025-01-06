@@ -25,7 +25,7 @@ title = 'Somari'
 
     [[menus.main]]
     name = "Blog"
-    url = "https://www.linkedin.com/company/somari-io/posts/?feedView=articles"
+    pageRef = "blog"
     weight = 50
 
     [[menus.footer]]
