@@ -3,61 +3,85 @@
 @tailwind utilities;
 
 article.update {
-    p {
-        @apply my-2
-    }
+  p {
+    @apply my-2;
+  }
 
-    ul {
-        @apply list-disc ml-8
-    }
+  ul {
+    @apply list-disc ml-8;
+  }
 
-    .tag-New {
-        @apply bg-blue-200 text-blue-800
-    }
+  .tag-New {
+    @apply bg-blue-200 text-blue-800;
+  }
 
-    .tag-Improvement {
-        @apply bg-violet-200 text-violet-800
-    }
+  .tag-Improvement {
+    @apply bg-violet-200 text-violet-800;
+  }
 
-    a {
-        @apply underline text-indigo-600
-    }
+  a {
+    @apply underline text-indigo-600;
+  }
 }
 
 .services, article.blog {
-    h2 {
-        @apply mt-10 text-2xl font-bold tracking-tight text-gray-900
+  h2 {
+    @apply mt-10 text-2xl font-bold tracking-tight text-gray-900;
+  }
+
+  h3 {
+    @apply mt-6 text-xl font-bold tracking-tight text-gray-900;
+  }
+
+  h4 {
+    @apply mt-6 text-lg font-bold tracking-tight text-gray-900;
+  }
+
+  p {
+    @apply mt-3;
+  }
+
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    @apply mt-6 mb-5 space-y-3 text-gray-600;
+  }
+
+  li {
+    position: relative; /* Enables positioning for the custom bullet */
+    padding-left: 30px; /* Space for the bullet image */
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    top: 0.25em; /* Aligns with the first line of text */
+    left: 0;
+    width: 18px; /* Adjust to the size of your bullet image */
+    height: 18px; /* Adjust to the size of your bullet image */
+    background-image: url("/images/bullet.svg"); /* Replace with your image path */
+    background-size: contain; /* Ensure the image fits */
+    background-repeat: no-repeat; /* Prevent image repetition */
+  }
+
+  strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  figure {
+    img {
+      @apply rounded-xl bg-gray-50 object-cover;
     }
 
-    h3 {
-        @apply mt-6 text-xl font-bold tracking-tight text-gray-900
-    }
-    
-    h4 {
-        @apply mt-6 text-lg font-bold tracking-tight text-gray-900
-    }
+    @apply mt-6 flex justify-center;
+  }
 
-    p {
-        @apply mt-3
-    }
+  a {
+    @apply text-indigo-500;
+  }
 
-    strong {
-        @apply font-semibold text-gray-900
-    }
-
-    ul {
-        li {
-            @apply flex gap-x-3
-        }
-
-        @apply mt-6 mb-5 space-y-3 text-gray-600
-    }
-
-    figure {
-        img {
-            @apply aspect-video rounded-xl bg-gray-50 object-cover
-        }
-
-        @apply mt-6
-    }
+  a:hover {
+    @apply text-indigo-500
+  }
 }

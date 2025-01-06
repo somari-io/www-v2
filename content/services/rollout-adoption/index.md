@@ -19,9 +19,9 @@ We nonetheless recognize that every organization is unique. Each one has its own
 
 By the end of our engagement:
 
-- {{< bullet `All my security plans will be stored and managed in Somari` >}}
-- {{< bullet `All Somari users will be proficient with the application` >}}
-- {{< bullet `Robust support mechanisms will be in place and accessible to everyone.` >}}
+- All my security plans will be stored and managed in Somari
+- bullet `All Somari users will be proficient with the application
+- bullet `Robust support mechanisms will be in place and accessible to everyone.
 
 We’ll strive to achieve the above in the most efficient, people-centric and scalable way.
 
@@ -29,9 +29,9 @@ We’ll strive to achieve the above in the most efficient, people-centric and sc
 
 We will be training 3 types of users:
 
-- {{< bullet `**Employees** - Users able to browse, find and consume content from Somari. They represent ~90% of the users.` >}}
-- {{< bullet `**SRM Advisors** - Like employees, plus able to create and validate content (Security Plans, ...). They represent ~10% of the users.` >}}
-- {{< bullet `**Somari Administrators** - Users able to configure Somari. They represent ~1% of the users.` >}}
+- **Employees** - Users able to browse, find and consume content from Somari. They represent ~90% of the users.
+- **SRM Advisors** - Like employees, plus able to create and validate content (Security Plans, ...). They represent ~10% of the users.
+- **Somari Administrators** - Users able to configure Somari. They represent ~1% of the users.
 
 We have prepared specific trainings (see below) for each of these target users.
 
@@ -43,8 +43,8 @@ We have developed an eLearning-based training approach because it caters to the 
 
 Trainings combine different types of sessions for an optimal learning experience:
 
-- {{< bullet `**Self-paced online courses** - We use Moodle to deliver engaging courses with text, video, interactive tutorials and quizzes. Your employees will be able to learn at their own pace, when they have time to focus, reducing the impact on your operations. You will be able to follow the progress of your employees and make sure they have properly completed their courses.` >}}
-- {{< bullet `**Group online sessions** - We use your preferred video conferencing tool to organize group sessions during which we discuss predefined topics and run practical exercises.` >}}
+- **Self-paced online courses** - We use Moodle to deliver engaging courses with text, video, interactive tutorials and quizzes. Your employees will be able to learn at their own pace, when they have time to focus, reducing the impact on your operations. You will be able to follow the progress of your employees and make sure they have properly completed their courses.
+- **Group online sessions** - We use your preferred video conferencing tool to organize group sessions during which we discuss predefined topics and run practical exercises.
 
 Finally, we make a separate test / playground instance of Somari available to your team during the entire duration of the rollout phase so that they can practice safely.
 
@@ -66,8 +66,8 @@ This approach is made possible by the fact that Somari is an application with a 
 
 **Delivery Method:** Hybrid, with 2 consecutive activities
 
-- {{< bullet `**Self Onboarding** - Self-paced online course - 2 weeks to complete - The course that goes over the editing feature of Somari in detail, with interactive tutorials, videos and quizzes. Staff members will be asked and able to practice in the sandbox instance put at their disposal. It’s important to time bind this activity to control the pace of rollout.` >}}
-- {{< bullet `**Bring Your Own Security Plan (BYSP) & Q&A** -  Group online session - 2/3h - Team members come to the session with a real security plan that they will input in Somari using what they have learned during self onboarding. Participants take turns in sharing their screens while inputting data. At the end of the session security plans will be fully digitized in Somari. The session is also used as a Q&A.` >}}
+- **Self Onboarding** - Self-paced online course - 2 weeks to complete - The course that goes over the editing feature of Somari in detail, with interactive tutorials, videos and quizzes. Staff members will be asked and able to practice in the sandbox instance put at their disposal. It’s important to time bind this activity to control the pace of rollout.
+- **Bring Your Own Security Plan (BYSP) & Q&A** -  Group online session - 2/3h - Team members come to the session with a real security plan that they will input in Somari using what they have learned during self onboarding. Participants take turns in sharing their screens while inputting data. At the end of the session security plans will be fully digitized in Somari. The session is also used as a Q&A.
 
 We recommend organizing the training of SRM Advisors of cohorts of 12 people. Larger groups can be difficult to manage during group online sessions.
 
@@ -77,8 +77,8 @@ We recommend organizing the training of SRM Advisors of cohorts of 12 people. La
 
 **Delivery Method:** Hybrid, with 2 consecutive activities
 
-- {{< bullet `**Self Onboarding** - Self-paced online course - 2 weeks to complete - The course that goes over the configuration settings of Somari, including user and role management. Administrators will be asked and able to practice in the sandbox instance put at their disposal. It’s important to time bind this activity to control the pace of rollout.` >}}
-- {{< bullet `**Q&A Session** - Group online session - 1.5/2h - Multiple sessions - During these sessions we go over specific administration workflows to make sure that all settings are known and understood.` >}}
+- **Self Onboarding** - Self-paced online course - 2 weeks to complete - The course that goes over the configuration settings of Somari, including user and role management. Administrators will be asked and able to practice in the sandbox instance put at their disposal. It’s important to time bind this activity to control the pace of rollout.
+- **Q&A Session** - Group online session - 1.5/2h - Multiple sessions - During these sessions we go over specific administration workflows to make sure that all settings are known and understood.
 
 ## Support Systems
 
@@ -108,10 +108,10 @@ Your support system will have to account for languages and time zones your organ
 
 The Somari Ambassadors is a group of Somari power users that have the mandate and time to provide support to other users via the clearly established internal support mechanisms described below. The role of the Ambassadors is to:
 
-- {{< bullet `Monitor the support chat` >}}
-- {{< bullet `Coordinate the Somari Power Hours` >}}
-- {{< bullet `Update the Internal Somari Guidelines` >}}
-- {{< bullet `Coordinate with other Ambassadors` >}}
+- Monitor the support chat
+- Coordinate the Somari Power Hours
+- Update the Internal Somari Guidelines
+- Coordinate with other Ambassadors
 
 The number of ambassadors varies between organizations but we recommend at least 2 persons to ensure some redundancy. As mentioned above, consider languages and time zones when choosing the team.
 
@@ -119,14 +119,14 @@ The number of ambassadors varies between organizations but we recommend at least
 
 Documentation is the best way to achieve self-service support and keep user productive. This can be achieved by applying simple and efficient practices:
 
-- {{< bullet `**Accessibility** - Make the documentation easily accessible to all users` >}}
-- {{< bullet `**Uniqueness** - Keep a single source of truth for documentation` >}}
-- {{< bullet `**Relevance** - Keep documentation updated based support issues raised` >}}
+- **Accessibility** - Make the documentation easily accessible to all users
+- **Uniqueness** - Keep a single source of truth for documentation
+- **Relevance** - Keep documentation updated based support issues raised
 
 Somari users have access to two, and only two, types of documentation:
 
-- {{< bullet `**Product Documentation** - This is provided by the Somari team and explains how to “do things, where to click” in Somari. Ex: adding point to a map or a threat to a risk assessment` >}}
-- {{< bullet `**Internal Somari Guidelines** - This document explains how to use Somari according to your organization’s practices. Ex: what type contacts to add in the staff list, what types of areas to document in the map.` >}}
+- **Product Documentation** - This is provided by the Somari team and explains how to “do things, where to click” in Somari. Ex: adding point to a map or a threat to a risk assessment
+- **Internal Somari Guidelines** - This document explains how to use Somari according to your organization’s practices. Ex: what type contacts to add in the staff list, what types of areas to document in the map.
 
 Consider that your internal documentation will have to be made available in multiple languages.
 
@@ -161,10 +161,10 @@ In this section we outline a high level checklist of activities that need to be 
 ### 1. Appoint The Somari Project Team
 
 The Somari Project Team is the group of people that will be manage the rollout and adoption effort. It is composed of the following members:
-- {{< bullet `**Project Manager (co-lead)** - The person in charge of leading the project and that is accountable internally for its success. This is the person that the Somari Partner will reach out to first for all things related to the project.` >}}
-- {{< bullet `**Somari Partner (co-lead)** - A Somari team member that will partner with your project manager to successfully rollout and adopt Somari. The Somari Partner is the right hand off the Project Manager. They ensure that all the work needed from Somari is done in time and as expected.` >}}
-- {{< bullet `**Master Trainers** - A selection SRM advisors that will support the training efforts of the other SRM Advisors. They are the first users to be trained on Somari. We spend extra time with them to make them Somari power users. They also participate in defining the content of the Internal Somari Guidelines. You start with a first group of master trainers for the initial training cohorts, but it evolves as more people are trained.` >}}
-- {{< bullet `**Ambassadors** - Once Somari in the hands of end users, you will need to identify a group of power users that will have a bit of time to support other users in their Somari journey. These can be the same as master trainers or any other user that has become fully proficient with Somari. More about ambassadors in the section about support systems.` >}}
+- **Project Manager (co-lead)** - The person in charge of leading the project and that is accountable internally for its success. This is the person that the Somari Partner will reach out to first for all things related to the project.
+- **Somari Partner (co-lead)** - A Somari team member that will partner with your project manager to successfully rollout and adopt Somari. The Somari Partner is the right hand off the Project Manager. They ensure that all the work needed from Somari is done in time and as expected.
+- **Master Trainers** - A selection SRM advisors that will support the training efforts of the other SRM Advisors. They are the first users to be trained on Somari. We spend extra time with them to make them Somari power users. They also participate in defining the content of the Internal Somari Guidelines. You start with a first group of master trainers for the initial training cohorts, but it evolves as more people are trained.
+- **Ambassadors** - Once Somari in the hands of end users, you will need to identify a group of power users that will have a bit of time to support other users in their Somari journey. These can be the same as master trainers or any other user that has become fully proficient with Somari. More about ambassadors in the section about support systems.
 
 {{< figure src="somari-rollout-team.png" >}}
 
@@ -172,12 +172,12 @@ The Somari Project Team is the group of people that will be manage the rollout a
 
 Somari delivers its true value when it is configured specifically for your organization. This mean importing and configuring a number of element such as:
 
-- {{< bullet `List of risks, vulnerabilities and measures for the Risk Assessment` >}}
-- {{< bullet `List of indicators for the Security Level Assessment` >}}
-- {{< bullet `List of features that can be added to maps for points, zones and lines` >}}
-- {{< bullet `Document templates for Context Analysis, Local SOPs, Security Strategy and more` >}}
-- {{< bullet `Default user roles and permissions` >}}
-- {{< bullet `And a few other things` >}}
+- List of risks, vulnerabilities and measures for the Risk Assessment
+- List of indicators for the Security Level Assessment
+- List of features that can be added to maps for points, zones and lines
+- Document templates for Context Analysis, Local SOPs, Security Strategy and more
+- Default user roles and permissions
+- And a few other things
 
 At the end of this process, the application default content and wording will be familiar and making user adoption easier.
 
@@ -185,8 +185,8 @@ At the end of this process, the application default content and wording will be 
 
 Master Trainers follow the same training program than SRM Advisors, with a few additions:
 
-- {{< bullet `We teach them how to deliver an effective BYOSP & Q&A session` >}}
-- {{< bullet `We organize sessions to gather inputs for the creation of the Internal Somari Guidelines.` >}}
+- We teach them how to deliver an effective BYOSP & Q&A session
+- We organize sessions to gather inputs for the creation of the Internal Somari Guidelines.
 
 We use these initial trainings to collect feedback on the training process in order to best adapt it to you organization.
 
@@ -206,8 +206,8 @@ We suggest having a progressive rollout starting with sites of medium security l
 
 Why medium security level sites:
 
-- {{< bullet `Deploying in sites that do not have specific security concerns would not bring enough value to the staff and we would not be able to learn much in the process.` >}}
-- {{< bullet `Going to high risk sites requires a battle tested deployment process so that operations and operational security are not impacted.` >}}
+- Deploying in sites that do not have specific security concerns would not bring enough value to the staff and we would not be able to learn much in the process.
+- Going to high risk sites requires a battle tested deployment process so that operations and operational security are not impacted.
 
 #### Sequence
 
@@ -219,9 +219,9 @@ Let’s consider the following deployment scenario for SRM Advisors only.
 
 Scope of deployment:
 
-- {{< bullet `Deploy Somari in 30 sites` >}}
-- {{< bullet `Located in 10 different countries (3 sites per country)` >}}
-- {{< bullet `Managed by 3 regional desks` >}}
+- Deploy Somari in 30 sites
+- Located in 10 different countries (3 sites per country)
+- Managed by 3 regional desks
 
 Let’s consider that we will train one person per site, country and region and another two at global (HQ) level. That make a total of 45 users to train. With cohorts of 12 users, we will need to organize 4 cohorts.
 
