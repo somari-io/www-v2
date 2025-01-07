@@ -4,9 +4,9 @@ tabTitle: "How Security Risk Management digital tools can support localization"
 date: 2024-04-10
 draft: false
 summary: "We discuss how digital tool scan help the humanitarian community shift from risk transfer to risk sharing in Security Risk Management."
+author: "nicolas"
 tags:
-  - Interviews
-  - Tools
+  - Localization
 ---
 
 ## Introduction

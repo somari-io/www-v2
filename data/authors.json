@@ -1,0 +1,18 @@
+{
+    "guillaume": {
+        "name": "Guillaume Deflaux",
+        "position": "CEO",
+        "image": "/images/team/guillaume.png"
+    },
+    "louis": {
+        "name": "Louis Kim",
+        "position": "CTO",
+        "image": "/images/team/louis.jpeg"
+    }
+    ,
+    "nicolas": {
+        "name": "Nicolas Mouly",
+        "position": "CSRMO",
+        "image": "/images/team/nicolas.png"
+    }
+}
