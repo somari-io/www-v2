@@ -9,11 +9,11 @@
         <div class="flex items-center gap-x-4 text-xs">
             <time datetime="2020-03-16" class="text-gray-500">{{ .PublishDate.Format "January 2, 2006" }}</time>
             {{ with .GetTerms "tags" }}
-            {{ range . }}
-            <a href="{{ .RelPermalink }}"
-                class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{
-                .LinkTitle }}</a>
-            {{ end }}
+                {{ range . }}
+                <a href="{{ .RelPermalink }}"
+                    class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{{
+                    .LinkTitle }}</a>
+                {{ end }}
             {{ end }}
         </div>
         <div class="group relative max-w-xl">
@@ -27,19 +27,17 @@
         </div>
         <div class="mt-6 flex border-t border-gray-900/5 pt-6">
             <div class="relative flex items-center gap-x-4">
-                <img src="/images/team/louis.jpeg" alt="" class="size-10 rounded-full bg-gray-50">
                 {{ with .Params.author }}
-                {{ with index site.Data.authors . }}
-                <div class="text-sm/6">
-                    <p class="font-semibold text-gray-900">
-                        <a href="#">
+                    {{ with index site.Data.authors . }}
+                    <img src="{{ .image }}" alt="" class="size-10 rounded-full bg-gray-50">
+                    <div class="text-sm/6">
+                        <p class="font-semibold text-gray-900">
                             <span class="absolute inset-0"></span>
                             {{ .name }}
-                        </a>
-                    </p>
-                    <p class="text-gray-600">{{ .position }}</p>
-                </div>
-                {{ end }}
+                        </p>
+                        <p class="text-gray-600">{{ .position }}</p>
+                    </div>
+                    {{ end }}
                 {{ end }}
             </div>
         </div>

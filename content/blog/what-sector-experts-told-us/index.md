@@ -4,6 +4,7 @@ tabTitle: "What Sector Experts Told Us"
 date: 2024-01-24
 draft: false
 summary: "We asked security & access management experts from prominent international NGOs to tell us about the main problems they face and the tools they use."
+author: "guillaume"
 tags:
   - Interviews
   - Tools

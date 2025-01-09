@@ -85,4 +85,12 @@ article.blog {
   a:hover {
     @apply text-indigo-500;
   }
+
+  a.tag {
+    @apply bg-gray-50 text-gray-600;
+  }
+
+  a.tag:hover {
+    @apply bg-gray-100;
+  }
 }
