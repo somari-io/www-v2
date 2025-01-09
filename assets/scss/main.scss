@@ -3,61 +3,110 @@
 @tailwind utilities;
 
 article.update {
-    p {
-        @apply my-2
-    }
+  p {
+    @apply my-2;
+  }
 
-    ul {
-        @apply list-disc ml-8
-    }
+  ul {
+    @apply list-disc ml-8;
+  }
 
-    .tag-New {
-        @apply bg-blue-200 text-blue-800
-    }
+  .tag-New {
+    @apply bg-blue-200 text-blue-800;
+  }
 
-    .tag-Improvement {
-        @apply bg-violet-200 text-violet-800
-    }
+  .tag-Improvement {
+    @apply bg-violet-200 text-violet-800;
+  }
 
-    a {
-        @apply underline text-indigo-600
-    }
+  a {
+    @apply underline text-indigo-600;
+  }
 }
 
-.services {
-    h2 {
-        @apply mt-10 text-2xl font-bold tracking-tight text-gray-900
+.services,
+article.blog {
+  h2 {
+    @apply mt-10 text-2xl font-bold tracking-tight text-gray-900;
+  }
+
+  h3 {
+    @apply mt-6 text-xl font-bold tracking-tight text-gray-900;
+  }
+
+  h4 {
+    @apply mt-6 text-lg font-bold tracking-tight text-gray-900;
+  }
+
+  p {
+    @apply mt-3;
+  }
+
+  ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    @apply mt-6 mb-5 space-y-3 text-gray-600;
+
+    li {
+      position: relative; /* Enables positioning for the custom bullet */
+      padding-left: 30px; /* Space for the bullet image */
     }
 
-    h3 {
-        @apply mt-6 text-xl font-bold tracking-tight text-gray-900
+    li::before {
+      content: "";
+      position: absolute;
+      top: 0.25em; /* Aligns with the first line of text */
+      left: 0;
+      width: 18px; /* Adjust to the size of your bullet image */
+      height: 18px; /* Adjust to the size of your bullet image */
+      background-image: url("/images/bullet.svg"); /* Replace with your image path */
+      background-size: contain; /* Ensure the image fits */
+      background-repeat: no-repeat; /* Prevent image repetition */
     }
-    
-    h4 {
-        @apply mt-6 text-lg font-bold tracking-tight text-gray-900
+  }
+
+  ol {
+    @apply mt-6 mb-5 space-y-3 list-none;
+    counter-reset: list;
+
+    li {
+      counter-increment: list; /* Increment the counter for each list item */
+      position: relative; /* Position the list item relative to its contents */
+      padding-left: 30px;
     }
 
-    p {
-        @apply mt-3
+    li::before {
+      content: counter(list) "."; /* Display the current counter value */
+      @apply top-0 left-0 absolute font-bold text-indigo-600
+    }
+  }
+
+  strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  figure {
+    img {
+      @apply rounded-xl bg-gray-50 object-cover;
     }
 
-    strong {
-        @apply font-semibold text-gray-900
-    }
+    @apply mt-6 flex justify-center;
+  }
 
-    ul {
-        li {
-            @apply flex gap-x-3
-        }
+  a {
+    @apply text-indigo-500;
+  }
 
-        @apply mt-6 mb-5 space-y-3 text-gray-600
-    }
+  a:hover {
+    @apply text-indigo-500;
+  }
 
-    figure {
-        img {
-            @apply aspect-video rounded-xl bg-gray-50 object-cover
-        }
+  a.tag {
+    @apply bg-gray-50 text-gray-600;
+  }
 
-        @apply mt-6
-    }
+  a.tag:hover {
+    @apply bg-gray-100;
+  }
 }

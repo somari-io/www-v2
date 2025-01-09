@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5.1593752mm"
+   height="5.1593752mm"
+   viewBox="0 0 5.1593752 5.1593752"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="bullet.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3844239"
+     inkscape:cx="81.622399"
+     inkscape:cy="78.733111"
+     inkscape:window-width="1888"
+     inkscape:window-height="979"
+     inkscape:window-x="16"
+     inkscape:window-y="48"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-81.585542,-84.656288)">
+    <path
+       fill-rule="evenodd"
+       d="m 81.585542,87.235975 c 0,-1.424781 1.154906,-2.579687 2.579688,-2.579687 1.424781,0 2.579687,1.154906 2.579687,2.579687 0,1.424781 -1.154906,2.579688 -2.579687,2.579688 -1.424782,0 -2.579688,-1.154907 -2.579688,-2.579688 z m 3.534833,-0.479954 a 0.1984375,0.1984375 0 1 0 -0.322791,-0.230717 l -0.856192,1.198563 -0.429683,-0.429684 a 0.1984375,0.1984375 0 0 0 -0.280459,0.280459 l 0.595313,0.595312 a 0.1984375,0.1984375 0 0 0 0.301625,-0.02487 z"
+       clip-rule="evenodd"
+       id="path1"
+       style="stroke-width:0.264583;fill:#4f46e5;fill-opacity:1"
+       inkscape:export-filename="bullet.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
