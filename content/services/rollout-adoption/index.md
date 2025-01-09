@@ -190,7 +190,7 @@ Master Trainers follow the same training program than SRM Advisors, with a few a
 
 We use these initial trainings to collect feedback on the training process in order to best adapt it to you organization.
 
-4. Create Internal Somari Guidelines
+### 4. Create Internal Somari Guidelines
 
 The guidelines is a document that explains how SRM Advisors will be expected to migrate their current security plans in Somari. We will provide you with a template, but you will able to add anything you want. The guidelines will be written with the inputs of master trainers as they go through the process of migrating security plans themselves.
 
