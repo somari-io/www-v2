@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<div class="relative isolate bg-white px-6 py-20 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
+    <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{{ .Title }}</p>
+  </div>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">{{ .Summary }}</p>
+
+  <div class="mx-auto mt-24 max-w-4xl px-6 sm:mt-40 lg:px-8">
+    <ul role="list" class="divide-y divide-gray-100">
+      {{ range .Pages }}
+      <li class="flex items-center justify-between gap-x-6 py-5">
+        <div class="min-w-0">
+          <div class="flex items-start gap-x-3">
+            <p class="text-sm/6 font-semibold text-gray-900">{{ .Title }}</p>
+            <p
+              class="mt-0.5 whitespace-nowrap rounded-md bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+              {{ with .Params.status }}
+              {{ with index site.Data.feature_statuses . }}
+            {{ .label }}
+              {{ end }}
+          {{ end }}
+
+
+            </p>
+          </div>
+          <div class="mt-1 text-xs/5 text-gray-500">
+            <p>{{ .Content }}</p>
+          </div>
+        </div>
+        <div class="flex flex-none items-center gap-x-4">
+          <div>date of completion</div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+
+  </div>
+
+</div>
+
+{{ end }}

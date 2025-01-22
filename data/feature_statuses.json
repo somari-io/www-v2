@@ -1,0 +1,12 @@
+{
+    "in_progress": {
+        "label": "⚙️ In Progress"
+    },
+    "coming_soon": {
+        "label": "⏳ Coming Soon"
+    }
+    ,
+    "done": {
+        "label": "✅ Done"
+    }
+}

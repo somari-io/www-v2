@@ -1,0 +1,11 @@
+disableKinds = [ "sitemap", "taxonomy", "term" ]
+
+[outputs]
+home = [ "html" ]
+
+[params]
+api_url = "https://cms.somari.io"
+
+[caches]
+    [caches.getresource]
+        maxAge = 0
