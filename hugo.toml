@@ -17,16 +17,21 @@ title = 'Somari'
     name = "Pricing"
     pageRef = "pricing"
     weight = 30
+    
+    [[menus.main]]
+    name = "Roadmap"
+    pageRef = "roadmap"
+    weight = 40
 
     [[menus.main]]
     name = "About"
     pageRef = "about"
-    weight = 40
+    weight = 50
 
     [[menus.main]]
     name = "Blog"
     pageRef = "blog"
-    weight = 50
+    weight = 60
 
     [[menus.footer]]
     name = "Privacy"
@@ -42,6 +47,14 @@ title = 'Somari'
     name = "Status Page"
     url = "https://status.somari.io/status/somari"
     weight = 30
+
+[module]
+    [[module.mounts]]
+        source = "content"
+        target = "content"
+    [[module.mounts]]
+        source = "prebuild/public/content"
+        target = "content"
 
 [params]
     [params.meta]

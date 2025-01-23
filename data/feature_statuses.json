@@ -1,0 +1,15 @@
+{
+    "in_progress": {
+        "label": "⚙️ In Progress",
+        "css_class": "feature-in-progress"
+    },
+    "coming_soon": {
+        "label": "⏳ Coming Soon",
+        "css_class": "feature-coming-soon"
+    }
+    ,
+    "done": {
+        "label": "✅ Done",
+        "css_class": "feature-done"
+    }
+}
