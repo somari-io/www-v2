@@ -1,4 +1,4 @@
-{{ $meta := dict "title" "Roadmap" "summary" "The Roadmap" "params" (dict "tabTitle" "Roadmap") }} 
+{{ $meta := dict "title" "Roadmap" "params" (dict "tabTitle" "Roadmap") }} 
 {{ $metaJson := jsonify $meta }}
 {{ $output := printf "%s" $metaJson }}
 {{ $filename := "content/roadmap/_index.md" }}
@@ -8,7 +8,7 @@
 {{ with resources.GetRemote (printf "%s/items/features" .Site.Params.api_url) }}
     {{ $pages := unmarshal .Content }}
     {{ range $pages.data }}
-        {{ $meta := dict "slug" .slug "title" .name "params" (dict "status" .status) "weight" .weight }} 
+        {{ $meta := dict "slug" .slug "title" .name "params" (dict "status" .status "released_on" .released_on) "weight" .weight }} 
         {{ $metaJson := jsonify $meta }}
         {{ $content := .description }}
         {{ $output := printf "%s\n%s" $metaJson $content }}
