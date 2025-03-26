@@ -1,0 +1,112 @@
+{{ partial "cal/init-clickable.html" (dict "context" . "event_type" "access-request" ) }}
+
+<div class="bg-gray-900 mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-700 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none"
+    x-data="{price: '€5,400'}">
+    <div class="p-8 sm:p-10 lg:flex-auto">
+        <h3 class="text-3xl font-semibold tracking-tight text-white">Essential Plan</h3>
+        <p class="mt-3 text-base/7 text-gray-400">Get all Somari in a plan that covers all your Security Risk Management
+            needs.</p>
+
+        <div class="flex items-center gap-4 mt-3 text-base/7 text-gray-400">
+            <span class="flex-none">I need Somari for up to</span>
+            <select x-model="price"
+                class="appearance-none rounded-md col-start-1 row-start-1 py-1.5 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-400 sm:text-sm/6">
+                <option value="€5,400">100</option>
+                <option value="€6,600">150</option>
+                <option value="€7,800">200</option>
+                <option value="€9,000">250</option>
+                <option value="€10,200">300</option>
+                <option value="€11,400">350</option>
+                <option value="€12,600">400</option>
+                <option value="€13,800">450</option>
+                <option value="€15,000">500</option>
+                <option value="€16,200">550</option>
+                <option value="€17,400">600</option>
+                <option value="€18,600">650</option>
+                <option value="€19,800">700</option>
+                <option value="€21,000">750</option>
+                <option value="€22,200">800</option>
+                <option value="€23,400">850</option>
+                <option value="€24,600">900</option>
+                <option value="€25,800">950</option>
+                <option value="€27,000">1,000</option>
+                <option value="Let's chat">More</option>
+            </select>
+            <span class="flex-none">users.</span>
+        </div>
+        <div class="mt-10 flex items-center gap-x-4">
+            <h4 class="flex-none text-sm/6 font-semibold text-indigo-400">What’s included</h4>
+            <div class="h-px flex-auto bg-gray-700"></div>
+        </div>
+        <ul role="list" class="mt-8 grid grid-cols-1 gap-4 text-sm/6 text-gray-400 sm:grid-cols-2 sm:gap-6">
+            <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path fill-rule="evenodd"
+                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                        clip-rule="evenodd" />
+                </svg>
+                All Somari Features
+            </li>
+            <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path fill-rule="evenodd"
+                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                        clip-rule="evenodd" />
+                </svg>
+                User documentation
+            </li>
+            <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path fill-rule="evenodd"
+                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                        clip-rule="evenodd" />
+                </svg>
+                Dedicated instance
+            </li>
+            <li class="flex gap-x-3">
+                <svg class="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path fill-rule="evenodd"
+                        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                        clip-rule="evenodd" />
+                </svg>
+                Email support
+            </li>
+        </ul>
+    </div>
+    <div class="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:shrink-0">
+        <div
+            class="rounded-2xl bg-white/5 py-10 text-center ring-1 ring-inset ring-gray-700 lg:flex lg:flex-col lg:justify-center lg:py-16 lg:h-full">
+            <div class="mx-auto max-w-xs px-8 flex flex-col gap-8">
+                <p class="text-base font-semibold text-gray-400">Yearly cost</p>
+
+                <p class="flex items-baseline justify-center gap-x-2">
+                    <span class="text-5xl font-semibold tracking-tight text-white" x-text="price"></span>
+                </p>
+                <button data-cal-link="guillaume/access-request" data-cal-namespace="access-request"
+                    data-cal-config='{"layout":"month_view"}' aria-describedby="plan"
+                    class="block w-full rounded-md bg-indigo-600 px-6 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                    Request Access
+                </button>
+                <p class="text-xs/5 text-gray-400">We charge a base fee and €2 per user per month</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div
+    class="mx-auto max-w-2xl lg:max-w-none mt-8 flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+    <div class="lg:min-w-0 lg:flex-1">
+        <h3 class="text-base/7 font-semibold text-indigo-600">Free Trial</h3>
+        <p class="mt-1 text-base/7 text-gray-600">Want to give Somari a try? No problem. We're happy to give you an
+            account on our demo instance.</p>
+    </div>
+    <button data-cal-link="guillaume/access-request" data-cal-namespace="access-request"
+        data-cal-config='{"layout":"month_view"}' aria-describedby="free-trial"
+        class="rounded-md px-3.5 py-2 text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+        Get Demo Account <span aria-hidden="true">&rarr;</span>
+    </button>
+</div>
