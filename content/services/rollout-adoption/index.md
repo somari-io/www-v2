@@ -176,6 +176,7 @@ Somari delivers its true value when it is configured specifically for your organ
 - List of indicators for the Security Level Assessment
 - List of features that can be added to maps for points, zones and lines
 - Document templates for Context Analysis, Local SOPs, Security Strategy and more
+- Incident report form and dashboard
 - Default user roles and permissions
 - And a few other things
 
