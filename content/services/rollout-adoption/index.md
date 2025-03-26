@@ -20,8 +20,8 @@ We nonetheless recognize that every organization is unique. Each one has its own
 By the end of our engagement:
 
 - All my security plans will be stored and managed in Somari
-- bullet `All Somari users will be proficient with the application
-- bullet `Robust support mechanisms will be in place and accessible to everyone.
+- All Somari users will be proficient with the application
+- Robust support mechanisms will be in place and accessible to everyone.
 
 We’ll strive to achieve the above in the most efficient, people-centric and scalable way.
 
