@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="relative isolate bg-white px-6 py-20 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
+    <h2 class="text-base font-semibold leading-7 text-indigo-600 hidden">Pricing</h2>
+    <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{{ .Site.Params.pricing.title }}</p>
+  </div>
+  <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">{{ .Site.Params.pricing.subtitle }}</p>
+  <div
+    class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+    {{ partial "pricing/plan-free.html" . }}
+    {{ partial "pricing/plan-scale.html" . }}
+  </div>
+</div>
+
+{{ partial "pricing/addons.html" . }}
+
+{{ partial "pricing/services.html" . }}
+
+{{ partial "pricing/faq.html" . }}
+
+{{ end }}
