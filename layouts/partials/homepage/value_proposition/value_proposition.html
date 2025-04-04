@@ -1,8 +1,15 @@
+{{ $len := len .Site.Params.value_propositions }}
+{{ $len := sub $len 1 }}
+
 {{ range $index, $item := .Site.Params.value_propositions }}
     {{ $p := mod $index 2 }}
     {{ if eq $p 0 }}
         {{ partial "homepage/value_proposition/value_prop_1.html" $item }}
     {{ else }}
         {{ partial "homepage/value_proposition/value_prop_2.html" $item }}
+    {{ end }}
+
+    {{ if lt $index $len }}
+        {{ partial "homepage/value_proposition/value_prop_divider.html" $item }}
     {{ end }}
 {{ end }}

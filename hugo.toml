@@ -92,13 +92,13 @@ title = 'Somari'
 
     [[params.value_propositions]]
     heading = "Information Management"
-    title = "Centralized Information"
+    title = "Be on top of everything"
     description = "Centralized information for real time updates at the organizational level - You always know what is going on"
 
     [[params.value_propositions]]
     heading = "Design"
     title = "Inclusive User Interface"
-    description = "We've built Somari with the best user experience practices in order to make the platform accessible to user users of all technical literacy."
+    description = "We've built Somari with the best user experience practices in order to make the platform accessible to users of all technical literacy."
 
     [[params.value_propositions]]
     heading = "Finance"
