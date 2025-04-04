@@ -1,0 +1,8 @@
+{{ range $index, $item := .Site.Params.value_propositions }}
+    {{ $p := mod $index 2 }}
+    {{ if eq $p 0 }}
+        {{ partial "homepage/value_proposition/value_prop_1.html" $item }}
+    {{ else }}
+        {{ partial "homepage/value_proposition/value_prop_2.html" $item }}
+    {{ end }}
+{{ end }}

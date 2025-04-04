@@ -85,6 +85,25 @@ title = 'Somari'
         title = "See what's new "
         url = "updates"
 
+    [[params.value_propositions]]
+    heading = "Tooling"
+    title = "One-Stop-Shop"
+    description = "A single platform for all your SRM tools and content. Integration with trust data providers"
+
+    [[params.value_propositions]]
+    heading = "Information Management"
+    title = "Centralized Information"
+    description = "Centralized information for real time updates at the organizational level - You always know what is going on"
+
+    [[params.value_propositions]]
+    heading = "Design"
+    title = "Inclusive User Interface"
+    description = "We've built Somari with the best user experience practices in order to make the platform accessible to user users of all technical literacy."
+
+    [[params.value_propositions]]
+    heading = "Finance"
+    title = "The only affordable solution"
+    description = "Our mission is clear: make your staff safe. This is why we're offering Somari at an unbeatable price."
 
     [params.header_menu]
     login_link = "https://staging.somari.io"
