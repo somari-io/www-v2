@@ -86,24 +86,24 @@ title = 'Somari'
         url = "updates"
 
     [[params.value_propositions]]
-    heading = "Tooling"
-    title = "One-Stop-Shop"
-    description = "A single platform for all your SRM tools and content. Integration with trust data providers"
+    heading = "Tools"
+    title = "Your One-Stop-Shop"
+    description = "Somari avoids tool fragmentation by providing a single platform for all your Security Risk Management needs in the field and at headquarters. We also integrate with trusted data providers such as ACAPS and HDX."
 
     [[params.value_propositions]]
     heading = "Information Management"
-    title = "Be on top of everything"
-    description = "Centralized information for real time updates at the organizational level - You always know what is going on"
+    title = "Stay Ahead"
+    description = "Somari is the central location from where you can safely access data across all aspects of Security Risk Management. Thanks to the purposely build dashboards, you always know what needs to be done and by whom, in real time."
+    
+    [[params.value_propositions]]
+    heading = "Accessibility"
+    title = "Everyone Is Welcome"
+    description = "We've built Somari following the best user experience practices in order to make the platform accessible to users of all technical literacy. No more recurring trainings, users can easily self-onboard."
 
     [[params.value_propositions]]
-    heading = "Design"
-    title = "Inclusive User Interface"
-    description = "We've built Somari with the best user experience practices in order to make the platform accessible to users of all technical literacy."
-
-    [[params.value_propositions]]
-    heading = "Finance"
-    title = "The only affordable solution"
-    description = "Our mission is clear: make your staff safe. This is why we're offering Somari at an unbeatable price."
+    heading = "Cost"
+    title = "Affordable, Yet Feature-Packed"
+    description = "Our mission is simple: to help you keep your staff safe. With Somari, you get a comprehensive Security Risk Management platform at an unmatched value, without breaking the bank."
 
     [params.header_menu]
     login_link = "https://staging.somari.io"
