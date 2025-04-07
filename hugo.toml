@@ -5,7 +5,7 @@ title = 'Somari'
 [menus]
     [[menus.main]]
     name = "Features"
-    pageRef = "#features"
+    pageRef = "features"
     weight = 10
 
     [[menus.main]]
