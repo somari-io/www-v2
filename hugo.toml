@@ -9,11 +9,6 @@ title = 'Somari'
     weight = 10
 
     [[menus.main]]
-    name = "Connect"
-    pageRef = "#connect"
-    weight = 20
-
-    [[menus.main]]
     name = "Pricing"
     pageRef = "pricing"
     weight = 30
@@ -95,6 +90,11 @@ title = 'Somari'
     title = "Stay Ahead"
     description = "Somari is the central location from where you can safely access data across all aspects of Security Risk Management. Thanks to the purposely build dashboards, you always know what needs to be done and by whom, in real time."
     
+    [[params.value_propositions]]
+    heading = "Simplicity"
+    title = "Streamline Key Workflows"
+    description = "Somari simplifies critical processes, making tasks like reporting and reviewing security incidents, handling movement requests, and conducting scheduled security plan reviews straightforward and efficient."
+
     [[params.value_propositions]]
     heading = "Accessibility"
     title = "Everyone Is Welcome"
