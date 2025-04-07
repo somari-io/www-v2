@@ -84,26 +84,31 @@ title = 'Somari'
     heading = "Tools"
     title = "Your One-Stop-Shop"
     description = "Somari avoids tool fragmentation by providing a single platform for all your Security Risk Management needs in the field and at headquarters. We also integrate with trusted data providers such as ACAPS and HDX."
+    image = "images/value-prop/one-stop-shop-cropped.png"
 
     [[params.value_propositions]]
     heading = "Information Management"
     title = "Stay Ahead"
     description = "Somari is the central location from where you can safely access data across all aspects of Security Risk Management. Thanks to the purposely build dashboards, you always know what needs to be done and by whom, in real time."
-    
+    image = "images/value-prop/stay-ahead-cropped.png"
+
     [[params.value_propositions]]
     heading = "Simplicity"
     title = "Streamline Key Workflows"
     description = "Somari simplifies critical processes, making tasks like reporting and reviewing security incidents, handling movement requests, and conducting scheduled security plan reviews straightforward and efficient."
+    image = "images/value-prop/workflows-cropped.png"
 
     [[params.value_propositions]]
     heading = "Accessibility"
     title = "Everyone Is Welcome"
     description = "We've built Somari following the best user experience practices in order to make the platform accessible to users of all technical literacy. No more recurring trainings, users can easily self-onboard."
+    image = "images/value-prop/accessibility-cropped.png"
 
     [[params.value_propositions]]
     heading = "Cost"
     title = "Affordable, Yet Feature-Packed"
     description = "Our mission is simple: to help you keep your staff safe. With Somari, you get a comprehensive Security Risk Management platform at an unmatched value, without breaking the bank."
+    image = "images/value-prop/accessibility-cropped.png"
 
     [params.header_menu]
     login_link = "https://staging.somari.io"
