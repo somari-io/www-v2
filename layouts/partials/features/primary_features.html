@@ -1,0 +1,53 @@
+{{ $n := len .feature.primary }}
+
+<div x-data="{ selected: '1' }">
+    <div class="mx-auto max-w-2xl px-8 text-center mt-20">
+        <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">{{ .feature.title }}</h2>
+        <p class="mt-6 text-lg/8 text-gray-600">{{ .feature.tagline }}</p>
+    </div>
+    <div class="bg-white py-20 lg:block hidden">
+        <div class="mx-auto max-w-7xl px-8">
+            <div class="flex flex-col">
+                <dl class="flex flex-row gap-x-5">
+                    {{ range .feature.primary }}
+                    <div class="w-1/{{ $n }} pb-3 mb-6 text-gray-600 hover:cursor-pointer" x-on:click="selected = '{{ .id }}'"
+                        x-bind:class="selected == '{{ .id }}' ? 'border-b-indigo-600 border-b-2' : 'border-b-2 border-b-gray-300'">
+                        <dt class="font-semibold" x-bind:class="selected == '{{ .id }}' ? 'text-gray-900' : ''">
+                            {{ .name}}
+                        </dt>
+                        <dd class="mt-2">{{ .desc }}</dd>
+                    </div>
+                    {{ end }}
+                </dl>
+                {{ range .feature.primary }}
+                <div class=" bg-indigo-100 ring-1 ring-inset  ring-gray-900/10 rounded-lg p-6"
+                    x-show="selected == '{{ .id }}'">
+                    <img src="{{ .media }}" alt="" class="mx-auto rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white py-16 block lg:hidden">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <dl class="grid grid-cols-1 gap-y-8">
+                {{ range .feature.primary }}
+                <div class="pt-3 hover:cursor-pointer" x-on:click="selected = '{{ .id }}'"
+                    x-bind:class="selected == '{{ .id }}' ? 'border-t-indigo-600 border-t-2' : 'border-t-2 border-t-gray-300'">
+                    <div>
+                        <dt class="font-semibold text-gray-600"
+                            x-bind:class="selected == '{{ .id }}' ? 'text-gray-900' : ''">{{ .name }}</dt>
+                        <dd class="text-gray-600">{{ .desc }}</dd>
+                    </div>
+                    <div class="mt-2" x-show="selected == '{{ .id }}'">
+                        <div class="bg-indigo-100 ring-1 ring-inset ring-gray-900/10 rounded-2xl p-3">
+                            <img src="{{ .media }}" alt="" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </dl>
+        </div>
+    </div>
+</div>
