@@ -1,11 +1,7 @@
 {{ $n := len .feature.primary }}
 
 <div x-data="{ selected: '1' }">
-    <div class="mx-auto max-w-2xl px-8 text-center mt-20">
-        <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">{{ .feature.title }}</h2>
-        <p class="mt-6 text-lg/8 text-gray-600">{{ .feature.tagline }}</p>
-    </div>
-    <div class="bg-white py-20 lg:block hidden">
+    <div class="bg-white pb-20 lg:block hidden">
         <div class="mx-auto max-w-7xl px-8">
             <div class="flex flex-col">
                 <dl class="flex flex-row gap-x-5">
@@ -40,7 +36,7 @@
                             x-bind:class="selected == '{{ .id }}' ? 'text-gray-900' : ''">{{ .name }}</dt>
                         <dd class="text-gray-600">{{ .desc }}</dd>
                     </div>
-                    <div class="mt-2" x-show="selected == '{{ .id }}'">
+                    <div class="mt-2" x-show="selected == '{{ .id }}'" x-collapse>
                         <div class="bg-indigo-100 ring-1 ring-inset ring-gray-900/10 rounded-2xl p-3">
                             <img src="{{ .media }}" alt="" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
                         </div>
