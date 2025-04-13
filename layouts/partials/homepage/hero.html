@@ -1,40 +1,41 @@
 <div class="bg-white">
-  <div class="relative isolate">
-    <div class="py-20 sm:py-26 lg:pb-40">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-4xl text-center">
-          <div class="mb-8 flex justify-center">
-            <div
-              class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              {{ .Site.Params.hero.whats_new.pre }}
-              <a href="{{ .Site.BaseURL }}{{ .Site.Params.hero.whats_new.url }}" class="font-semibold text-indigo-600">
-                <span class="absolute inset-0" aria-hidden="true"></span>
-                {{ .Site.Params.hero.whats_new.title }}
-                <span aria-hidden="true">&rarr;</span>
-              </a>
+    <div class="relative isolate">
+        <div class="py-20 sm:py-26 lg:pb-40">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-4xl text-center">
+                    <div class="mb-8 flex justify-center">
+                        <div
+                            class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                            {{ .Site.Params.hero.whats_new.pre }}
+                            <a href="{{ .Site.BaseURL }}{{ .Site.Params.hero.whats_new.url }}"
+                                class="font-semibold text-indigo-600 text-nowrap">
+                                {{ .Site.Params.hero.whats_new.title }}
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{{ .Site.Params.hero.title
+                        }} <span class="underline-curved">{{ .Site.Params.hero.title_extra }}</span> </h1>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Site.Params.hero.subtitle }}</p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        {{ partial "request-access-button.html" }}
+                        <a class="group inline-flex ring-1 items-center justify-center rounded-full py-2.5 px-4 text-sm font-semibold focus:outline-none ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300"
+                            variant="outline" color="slate" href="{{ .Site.Params.hero.video_link }}"><svg
+                                aria-hidden="true" class="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
+                                <path
+                                    d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z">
+                                </path>
+                            </svg><span class="ml-2">Watch video</span></a>
+                    </div>
+                </div>
+                <div class="mt-16 flow-root sm:mt-24">
+                    <div
+                        class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                        <img src="{{ .Site.BaseURL }}{{ .Site.Params.hero.image }}" alt="App screenshot" width="2432"
+                            height="1442" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                    </div>
+                </div>
             </div>
-          </div>
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{{ .Site.Params.hero.title }} <span class="underline-curved">{{ .Site.Params.hero.title_extra }}</span> </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">{{ .Site.Params.hero.subtitle }}</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            {{ partial "request-access-button.html" }}
-            <a class="group inline-flex ring-1 items-center justify-center rounded-full py-2.5 px-4 text-sm font-semibold focus:outline-none ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300"
-              variant="outline" color="slate" href="{{ .Site.Params.hero.video_link }}"><svg aria-hidden="true"
-                class="h-3 w-3 flex-none fill-blue-600 group-active:fill-current">
-                <path
-                  d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z">
-                </path>
-              </svg><span class="ml-2">Watch video</span></a>
-          </div>
         </div>
-        <div class="mt-16 flow-root sm:mt-24">
-          <div
-            class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-            <img src="{{ .Site.BaseURL }}{{ .Site.Params.hero.image }}" alt="App screenshot" width="2432" height="1442"
-              class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
