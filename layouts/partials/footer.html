@@ -3,13 +3,13 @@
         <div class="py-16">
             <img class="h-8 w-auto mx-auto" src="{{ .Site.BaseURL }}{{ .Site.Params.logos.white_text }}" alt="">
             <nav class="mt-10 text-sm" aria-label="quick links">
-                <div class="-my-1 flex justify-center gap-x-6">
+                <div class="text-center flex flex-col gap-y-4 sm:flex-row sm:justify-center sm:gap-x-6">
                     {{ range .Site.Menus.main }}
                         {{ $.Scratch.Set "link" (printf "%s%s" $.Site.BaseURL .PageRef) }}
                         {{ with .URL }}
                             {{ $.Scratch.Set "link" . }}
                         {{ end }}
-                        <a class="inline-block rounded-lg px-2 py-1 text-sm text-gray-300 hover:text-white"
+                        <a class="px-2 py-1 text-sm text-gray-300 hover:text-white"
                             href="{{ $.Scratch.Get "link" }}">
                             {{ .Name }}</a>
                     {{ end }}

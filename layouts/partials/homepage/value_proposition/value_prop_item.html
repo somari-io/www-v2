@@ -1,0 +1,21 @@
+{{ $order_text := "" }}
+{{ $order_img := "" }}
+{{ if eq .swap true}}
+    {{ $order_text = "order-1 lg:order-2" }}
+    {{ $order_img = "order-2 lg:order-1" }}
+{{ end }}
+
+<div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid grid-cols-1 max-w-2xl gap-x-20 gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-2 ">
+            <div class="lg:pt-4 {{ $order_text }}">
+                <h2 class="text-base/7 font-semibold text-indigo-600">{{ .item.heading }}</h2>
+                <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{{ .item.title }}</p>
+                <p class="mt-6 text-lg/8 text-gray-600">{{ .item.description }}</p>
+            </div>
+            <div class="{{ $order_img }}">
+                <img class="size-full rounded-xl shadow-xl ring-1 ring-gray-400/10" src="{{ .item.image }}" alt="">
+            </div>
+        </div>
+    </div>
+</div>

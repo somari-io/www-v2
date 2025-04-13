@@ -1,0 +1,15 @@
+{{ $len := len .Site.Params.value_propositions }}
+{{ $len := sub $len 1 }}
+
+{{ range $index, $item := .Site.Params.value_propositions }}
+    {{ $p := mod $index 2 }}
+    {{ if eq $p 0 }}
+        {{ partial "homepage/value_proposition/value_prop_item.html" (dict "item" $item "swap" false) }}
+    {{ else }}
+        {{ partial "homepage/value_proposition/value_prop_item.html" (dict "item" $item "swap" true) }}
+    {{ end }}
+
+    {{ if lt $index $len }}
+        {{ partial "divider.html" $item }}
+    {{ end }}
+{{ end }}

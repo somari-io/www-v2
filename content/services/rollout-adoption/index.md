@@ -20,8 +20,8 @@ We nonetheless recognize that every organization is unique. Each one has its own
 By the end of our engagement:
 
 - All my security plans will be stored and managed in Somari
-- bullet `All Somari users will be proficient with the application
-- bullet `Robust support mechanisms will be in place and accessible to everyone.
+- All Somari users will be proficient with the application
+- Robust support mechanisms will be in place and accessible to everyone.
 
 We’ll strive to achieve the above in the most efficient, people-centric and scalable way.
 
@@ -176,6 +176,7 @@ Somari delivers its true value when it is configured specifically for your organ
 - List of indicators for the Security Level Assessment
 - List of features that can be added to maps for points, zones and lines
 - Document templates for Context Analysis, Local SOPs, Security Strategy and more
+- Incident report form and dashboard
 - Default user roles and permissions
 - And a few other things
 
