@@ -53,8 +53,8 @@ title = 'Somari'
 
 [params]
     [params.meta]
-    description = 'Somari is the first web & mobile Security Risk Management (SRM) solution dedicated to managing the security of NGO staff.'
-    homeTabTitle = 'Security Risk Management for NGOs'
+    description = 'Somari is the only all-in-one and affordable web & mobile  Security Risk Management (SRM).'
+    homeTabTitle = 'Security Risk Management'
     authors = 'The Somari Team'
 
     [params.logos]

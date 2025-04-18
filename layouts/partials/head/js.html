@@ -1,4 +1,4 @@
-{{ with resources.Get "js/main.js" | js.Build }}
+{{ with resources.Get "js/main.js" | js.Build | minify }}
     <script src="{{ .RelPermalink }}" defer></script>
 {{ end }}
 
