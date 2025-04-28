@@ -15,7 +15,14 @@
                 </svg>
                 {{ .name }}
             </dt>
-            <dd class="ml-1 inline">{{ .desc }}</dd>
+            <dd class="ml-1 inline">
+                {{ .desc }}
+                {{ if .video }}
+                    <button class="text-indigo-600" x-on:click="modalIsOpen = true, videoSrc = 'https://www.youtube.com/embed/{{ .video }}'">
+                        See video.
+                    </button>
+                {{ end }}
+            </dd>
         </div>
         {{ end }}
     </dl>

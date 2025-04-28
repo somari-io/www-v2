@@ -6,7 +6,8 @@
             <div class="flex flex-col">
                 <dl class="flex flex-row gap-x-5">
                     {{ range .feature.primary }}
-                    <div class="w-1/{{ $n }} pb-3 mb-6 text-gray-600 hover:cursor-pointer" x-on:click="selected = '{{ .id }}'"
+                    <div class="w-1/{{ $n }} pb-3 mb-6 text-gray-600 hover:cursor-pointer"
+                        x-on:click="selected = '{{ .id }}'"
                         x-bind:class="selected == '{{ .id }}' ? 'border-b-indigo-600 border-b-2' : 'border-b-2 border-b-gray-300'">
                         <dt class="font-semibold" x-bind:class="selected == '{{ .id }}' ? 'text-gray-900' : ''">
                             {{ .name}}
@@ -16,9 +17,20 @@
                     {{ end }}
                 </dl>
                 {{ range .feature.primary }}
-                <div class=" bg-indigo-100 ring-1 ring-inset  ring-gray-900/10 rounded-lg p-6"
+                <div class=" bg-indigo-100 ring-1 ring-inset  ring-gray-900/10 rounded-lg p-6 relative"
                     x-show="selected == '{{ .id }}'">
                     <img src="{{ .media }}" alt="" class="mx-auto rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                    {{ if .video }}
+                    <div class="size-16 absolute inset-0 m-auto top-0 bottom-0 left-0 right-0 hover:cursor-pointer p-2 bg-indigo-300 rounded-full"
+                        x-on:click="modalIsOpen = true, videoSrc = 'https://www.youtube.com/embed/{{ .video }}'">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="size-12 text-white mx-auto my-auto">
+                            <path fill-rule="evenodd"
+                                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    {{ end }}
                 </div>
                 {{ end }}
             </div>
@@ -37,8 +49,19 @@
                         <dd class="text-gray-600">{{ .desc }}</dd>
                     </div>
                     <div class="mt-2" x-show="selected == '{{ .id }}'" x-collapse>
-                        <div class="bg-indigo-100 ring-1 ring-inset ring-gray-900/10 rounded-2xl p-3">
+                        <div class="bg-indigo-100 ring-1 ring-inset ring-gray-900/10 rounded-2xl p-3 relative">
                             <img src="{{ .media }}" alt="" class="rounded-md shadow-2xl ring-1 ring-gray-900/10">
+                            {{ if .video }}
+                            <div class="size-16 absolute inset-0 m-auto top-0 bottom-0 left-0 right-0 hover:cursor-pointer p-2 bg-indigo-300 rounded-full"
+                                x-on:click="modalIsOpen = true, videoSrc = 'https://www.youtube.com/embed/{{ .video }}'">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-12 text-white mx-auto my-auto">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm14.024-.983a1.125 1.125 0 0 1 0 1.966l-5.603 3.113A1.125 1.125 0 0 1 9 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            {{ end }}
                         </div>
                     </div>
                 </div>

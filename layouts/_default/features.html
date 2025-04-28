@@ -1,25 +1,28 @@
 {{ define "main"}}
+<div x-data="{modalIsOpen: false, videoSrc: ''}">
+    {{ partial "features/hero.html" . }}
 
-{{ partial "features/hero.html" . }}
+    {{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.incident_reporting) }}
+    {{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.incident_reporting) }}
+    {{ partial "divider.html" . }}
 
-{{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.incident_reporting) }}
-{{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.incident_reporting) }}
-{{ partial "divider.html" . }}
+    {{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.security_plan) }}
+    {{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.security_plan) }}
+    {{ partial "features/secondary_features.html" (dict "context" . "feature" .Site.Params.features.security_plan "more"
+    true) }}
+    {{ partial "divider.html" . }}
 
-{{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.security_plan) }}
-{{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.security_plan) }}
-{{ partial "features/secondary_features.html" (dict "context" . "feature" .Site.Params.features.security_plan "more" true) }}
-{{ partial "divider.html" . }}
+    {{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.movement_tracking) }}
+    {{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.movement_tracking) }}
+    {{ partial "divider.html" . }}
 
-{{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.movement_tracking) }}
-{{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.movement_tracking) }}
-{{ partial "divider.html" . }}
+    {{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.context_monitoring) }}
+    {{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.context_monitoring) }}
+    {{ partial "divider.html" . }}
 
-{{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.context_monitoring) }}
-{{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.context_monitoring) }}
-{{ partial "divider.html" . }}
+    {{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.global) }}
+    {{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.global) }}
 
-{{ partial "features/header.html" (dict "context" . "feature" .Site.Params.features.global) }}
-{{ partial "features/primary_features.html" (dict "context" . "feature" .Site.Params.features.global) }}
-
+    {{ partial "modal.html" . }}
+</div>
 {{ end }}
