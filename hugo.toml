@@ -332,12 +332,12 @@ title = 'Somari'
         bio = "15+ years of experience building and running software, leading teams for enterprises and startups with a strong focus on quality and simplicity."
         experience = "Bouygues Telecom, Le Figaro, Hivebrite"
 
-        [[params.team.members]]
-        photo = "/images/team/recruiting.png"
-        name = "Actively Recruiting"
-        expertise = "SRM Expertise"
-        bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
-        experience = ""
+        # [[params.team.members]]
+        # photo = "/images/team/recruiting.png"
+        # name = "Actively Recruiting"
+        # expertise = "SRM Expertise"
+        # bio = "10+ years of experience as SRM advisor, field project coordinator, head of mission and/or desk manager."
+        # experience = ""
 
     [params.pricing]
         title = "Pricing"
